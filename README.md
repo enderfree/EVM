@@ -11,7 +11,7 @@ This mod is still in beta.
 Jaw
 - Added field mawSize. This is used to see if you can swallow this creature whole. (there is an option to ignore this part)
 
-Stomach
+Stomach<br/>
 Added the following fields.
 - baseDamage: damage dealt per digestion tick = baseDamage * digestionEfficiancy * metabolism level
 - digestionEfficiancy: damage dealt per digestion tick = baseDamage * digestionEfficiancy * metabolism level
@@ -23,7 +23,7 @@ Added the following fields.
 - digestionDamageType: type of damage your digestion applies
 Added the name tag "DefaultStomach" to the stomach, hoping to help crossmod compatibility
 
-Body
+Body<br/>
 Added a default digestive track to the human body.
 
 # Digestive Track?
