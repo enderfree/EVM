@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>Vore</defName>
+		<driverClass>EVM.JobDriver_Vore</driverClass>
+		<reportString>vore TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>EVM_Regurgitate</defName>
+		<driverClass>EVM.JobDriver_Regurgitate</driverClass>
+		<reportString>regurgitate TargetA.</reportString>
+	</JobDef>
+</Defs>

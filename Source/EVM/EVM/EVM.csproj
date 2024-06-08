@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EVM</RootNamespace>
+    <AssemblyName>EVM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\1.5\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>ARM64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HarmonyMod">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\HarmonyMod.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BodyPartExtension.cs" />
+    <Compile Include="Digestion\DigestionWorker.cs" />
+    <Compile Include="Digestion\DigestionWorker_Fatal.cs" />
+    <Compile Include="Digestion\DigestionWorker_Heal.cs" />
+    <Compile Include="Digestion\DigestionWorker_HealScars.cs" />
+    <Compile Include="Digestion\DigestionWorker_JoyPred.cs" />
+    <Compile Include="Digestion\DigestionWorker_Mend.cs" />
+    <Compile Include="Digestion\DigestionWorker_JoyPrey.cs" />
+    <Compile Include="Digestion\DigestionWorker_Regenerate.cs" />
+    <Compile Include="Digestion\DigestionWorker_Tend.cs" />
+    <Compile Include="Digestion\DigestionWorker_Safe.cs" />
+    <Compile Include="DigestiveTrack.cs" />
+    <Compile Include="EnderfreesVoreMod.cs" />
+    <Compile Include="EVM_FloatMenuMakerMap_Patch.cs" />
+    <Compile Include="EVM_Thing_Patch.cs" />
+    <Compile Include="EVM_Toils_Ingest_Patch.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="HediffVore.cs" />
+    <Compile Include="InternalDefOf.cs" />
+    <Compile Include="JobDriver_Regurgitate.cs" />
+    <Compile Include="JobDriver_Vore.cs" />
+    <Compile Include="NutritionGainOptions.cs" />
+    <Compile Include="OnStartUp.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Toils_Vore.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="VoreProperties.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
