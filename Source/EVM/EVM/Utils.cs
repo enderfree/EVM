@@ -25,24 +25,52 @@ namespace EVM
             voreProperties.trackId = trackId;
             voreProperties.trackStage = trackStage;
             voreProperties.struggle = struggle;
-
+            
             // Maw
-            List<BodyPartRecord> jaws = pred.RaceProps.body.GetPartsWithDef(InternalDefOf.Jaw);
-            BodyPartExtension bodyPartExtension = jaws[0].def.GetModExtension<BodyPartExtension>();
+            //List<BodyPartRecord> jaws = pred.RaceProps.body.GetPartsWithDef(InternalDefOf.Jaw);
+            //BodyPartExtension bodyPartExtension = jaws[0].def.GetModExtension<BodyPartExtension>();
 
-            if (jaws.Count > 0)
+            //if (jaws.Count > 0)
+            //{
+            //    if (bodyPartExtension != null)
+            //    {
+            //        if (bodyPartExtension.mawSize != -1)
+            //        {
+            //            voreProperties.mawSize = bodyPartExtension.mawSize;
+            //        }
+            //    }
+            //}
+
+            voreProperties.mawSize = EnderfreesVoreMod.settings.DefaultMawSize;
+
+            if (pred.RaceProps.Animal)
             {
-                if (bodyPartExtension != null)
+                IEnumerable<float> matches = from m 
+                                             in EnderfreesVoreMod.settings.mawList
+                                             where m.defName == pred.kindDef.defName
+                                             select m.preySize;
+
+                if (matches.Count() > 0)
                 {
-                    if (bodyPartExtension.mawSize != -1)
-                    {
-                        voreProperties.mawSize = bodyPartExtension.mawSize;
-                    }
+                    voreProperties.mawSize = matches.First();
+                }
+            } 
+            else if (pred.RaceProps.Humanlike)
+            {
+                IEnumerable<float> matches = from x
+                                             in EnderfreesVoreMod.settings.xenotypes
+                                             where x.ToString() == pred.genes.Xenotype.defName || 
+                                                x.ToString() == pred.genes.CustomXenotype.name
+                                             select x.preySize;
+
+                if (matches.Count() > 0)
+                {
+                    voreProperties.mawSize = matches.First();
                 }
             }
 
             // Digestive Tracks
-            bodyPartExtension = pred.RaceProps.body.GetModExtension<BodyPartExtension>();
+            BodyPartExtension bodyPartExtension = pred.RaceProps.body.GetModExtension<BodyPartExtension>();
             if (bodyPartExtension != null) 
             { 
                 if (bodyPartExtension.digestiveTracks != null)
@@ -50,7 +78,7 @@ namespace EVM
                     voreProperties.digestiveTracks = bodyPartExtension.digestiveTracks;
                 }
             }
-
+            
             // Stomach
             if (trackId < voreProperties.digestiveTracks.Count)
             {

@@ -16,5 +16,8 @@
     <loadAfter>
 		<li>brrainz.harmony</li>
     </loadAfter>
+	<incompatibleWith>
+		<li>enderfree.logic.PredatorsSwallow</li>
+	</incompatibleWith>
     <description>People kept saying some of my mods are vore mods, so lets the vore begin for real this time.</description>
 </ModMetaData>

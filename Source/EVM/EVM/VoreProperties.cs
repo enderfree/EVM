@@ -32,7 +32,7 @@ namespace EVM
         }
 
         // defined per maw
-        public float mawSize = 0.03f; // percent compared to creature size
+        public float mawSize = EnderfreesVoreMod.settings.DefaultMawSize; // percent compared to creature size
 
         // defined per stomach
         public float baseDamage = 10f;

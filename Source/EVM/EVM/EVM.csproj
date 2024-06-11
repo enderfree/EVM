@@ -71,7 +71,10 @@
     <Compile Include="Digestion\DigestionWorker_Safe.cs" />
     <Compile Include="DigestiveTrack.cs" />
     <Compile Include="EnderfreesVoreMod.cs" />
+    <Compile Include="EVM_Current_Patch.cs" />
     <Compile Include="EVM_FloatMenuMakerMap_Patch.cs" />
+    <Compile Include="EVM_GameDataSaveLoader_Patch.cs" />
+    <Compile Include="EVM_JobDriver_PredatorHunt_Patch.cs" />
     <Compile Include="EVM_Thing_Patch.cs" />
     <Compile Include="EVM_Toils_Ingest_Patch.cs" />
     <Compile Include="Extensions.cs" />
@@ -82,10 +85,13 @@
     <Compile Include="NutritionGainOptions.cs" />
     <Compile Include="OnStartUp.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="SettingsAnimal.cs" />
+    <Compile Include="SettingTabs.cs" />
     <Compile Include="Toils_Vore.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="VoreProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XenotypeUnifier.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

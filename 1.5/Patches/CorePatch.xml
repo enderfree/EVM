@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<!-- Jaw -->
+	<!-- Jaw 
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/BodyPartDef[defName="Jaw"]/modExtensions</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -18,7 +18,7 @@
 				<mawSize>0.8</mawSize>
 			</li>
 		</value>
-	</Operation>
+	</Operation>-->
 	
 	<!-- Stomach -->
 	<Operation Class="PatchOperationConditional">
@@ -55,9 +55,9 @@
 	
 	<!-- Body -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/BodyDef[defName="Human"]/modExtensions</xpath>
+		<xpath>Defs/BodyDef/modExtensions</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/BodyDef[defName="Human"]</xpath>
+			<xpath>Defs/BodyDef</xpath>
 			<value>
 				<modExtensions/>
 			</value>
@@ -65,7 +65,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BodyDef[defName="Human"]/modExtensions</xpath>
+		<xpath>Defs/BodyDef/modExtensions</xpath>
 		<value>
 			<li Class="EVM.BodyPartExtension">
 				<digestiveTracks>
