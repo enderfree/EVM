@@ -1,3 +1,6 @@
+# Disclaimer
+This mod is written incompatible with [Predators Swallow](https://steamcommunity.com/workshop/filedetails/?id=3163169357) as it now includes it, but having both should cause no issue.
+
 # Overview
 This is mostly  a library mod for vore. I was tired of adding RedMattis' [Lamia mod](https://steamcommunity.com/workshop/filedetails/?id=2908225858) as a dependency to mods that should not have any (except Harmony maybe). 
 
@@ -9,7 +12,8 @@ This mod is still in beta.
 
 # How does this mod work?
 Jaw
-- Added field mawSize. This is used to see if you can swallow this creature whole. (there is an option to ignore this part)
+- ~~Added field mawSize. This is used to see if you can swallow this creature whole. (there is an option to ignore this part)~~
+This was removed to confugure like from [Predators Swallow](https://steamcommunity.com/workshop/filedetails/?id=3163169357)
 
 Stomach<br/>
 Added the following fields.
@@ -46,6 +50,6 @@ I made the following digestion worker so far.
 If you want to make your own, add this mod as a library and implement DigestionWorker in your class. 
 
 # Plans for the future
-- Integrate [Predators Swallow](https://steamcommunity.com/workshop/filedetails/?id=3163169357)
+- Make a family friendly version
 - Biotech features
 - A tutorial
