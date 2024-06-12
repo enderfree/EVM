@@ -2,11 +2,9 @@
 This mod is written incompatible with [Predators Swallow](https://steamcommunity.com/workshop/filedetails/?id=3163169357) as it now includes it, but having both should cause no issue.
 
 # Overview
-This is mostly  a library mod for vore. I was tired of adding RedMattis' [Lamia mod](https://steamcommunity.com/workshop/filedetails/?id=2908225858) as a dependency to mods that should not have any (except Harmony maybe). 
+This is mostly a library but it also includes Predators Swallow now, which makes so if they can, predators will swallow their prey whole. Maw size and if this feature is active are configurable. 
 
-RedMattis' mods are amazing, but his Engulf gene is a gene, locking it to Biotech and it currently only allows Fatal and Healing. Mine should allow custom logic, although only Fatal was tested yet. 
-
-This mod adds no features by default, but has vore options that can be turned on so you can command your pawns to vore. Vore is not automatic, triggers for vore might be made later, but not as part of this mod. This mod's purpose is to handle any vore logic thrown at it. 
+I was tired of adding RedMattis' [Lamia mod](https://steamcommunity.com/workshop/filedetails/?id=2908225858) as a dependency to mods that should not have any (except Harmony maybe). RedMattis' mods are amazing, but his Engulf gene is a gene, locking it to Biotech and it currently only allows Fatal and Healing. Mine should allow custom logic, although only Fatal was tested yet. 
 
 This mod is still in beta. 
 
@@ -50,6 +48,5 @@ I made the following digestion worker so far.
 If you want to make your own, add this mod as a library and implement DigestionWorker in your class. 
 
 # Plans for the future
-- Make a family friendly version
 - Biotech features
 - A tutorial
