@@ -12,7 +12,7 @@ namespace EVM
     internal class BodyPartExtension: DefModExtension
     {
         // Jaw
-        public float mawSize = -1;
+        //public float mawSize = -1;
 
         // Stomach
         public float baseDamage = -1;

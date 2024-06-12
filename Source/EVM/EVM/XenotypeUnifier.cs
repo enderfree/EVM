@@ -12,7 +12,7 @@ namespace EVM
         public string defName = "";
         public string label = "";
         public string name = "";
-        public float preySize = EnderfreesVoreMod.settings.DefaultMawSize;
+        public float preySize = SwallowWholeLibrary.settings.DefaultMawSize;
 
         public XenotypeUnifier()
         {

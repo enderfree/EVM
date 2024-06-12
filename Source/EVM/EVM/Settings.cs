@@ -13,7 +13,7 @@ namespace EVM
         // Mod Options
         public int nutritionGainOption = (int)NutritionGainOptions.OnEating;
         public bool swallowIgnoresSize = false;
-        public bool voreDebugOptions = false;
+        public bool debugOptions = false;
         private float defaultMawSize = 0.8f;
         public bool predatorsSwallow = true;
 
@@ -30,7 +30,7 @@ namespace EVM
             // Mod Options
             Scribe_Values.Look<int>(ref nutritionGainOption, "EVM_NutritionGainOption");
             Scribe_Values.Look<bool>(ref swallowIgnoresSize, "EVM_SwallowIgnoresSize");
-            Scribe_Values.Look<bool>(ref voreDebugOptions, "EVM_VoreDebugOptions");
+            Scribe_Values.Look<bool>(ref debugOptions, "EVM_debugOptions");
             Scribe_Values.Look<float>(ref defaultMawSize, "Evm_DefaultMawSize");
             Scribe_Values.Look<bool>(ref predatorsSwallow, "EVM_PredatorsSwallow");
 

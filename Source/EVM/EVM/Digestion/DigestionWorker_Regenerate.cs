@@ -63,11 +63,11 @@ namespace EVM.Digestion
             return healingPool;
         }
 
-        public override float GetNutritionFromDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
-            float nutrition = base.GetNutritionFromDigestion(voreProperties, innerContainer);
+            float nutrition = base.GetNutritionFromDigestion(swallowWholeProperties, innerContainer);
 
-            if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
+            if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
             {
                 foreach (Thing thing in innerContainer)
                 {

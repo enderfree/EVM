@@ -18,7 +18,7 @@ namespace EVM
 
         protected override IEnumerable<Toil> MakeNewToils()
         {
-            yield return Toils_Vore.Regurgitate(this.job.GetTarget(TargetIndex.A).Thing);
+            yield return Toils_Food.Regurgitate(this.job.GetTarget(TargetIndex.A).Thing);
             yield break;
         }
     }

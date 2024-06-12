@@ -23,7 +23,7 @@ namespace EVM
                 if (pawnKindDef.RaceProps.Animal)
                 {
                     bool found = false;
-                    foreach (SettingsAnimal animal in EnderfreesVoreMod.settings.mawList)
+                    foreach (SettingsAnimal animal in SwallowWholeLibrary.settings.mawList)
                     {
                         if (pawnKindDef.defName == animal.defName)
                         {
@@ -36,7 +36,7 @@ namespace EVM
                     {
                         SettingsAnimal settingsAnimal = new SettingsAnimal(pawnKindDef.label, pawnKindDef.defName);
 
-                        foreach (SettingsAnimal exception in EnderfreesVoreMod.settings.animalMawException)
+                        foreach (SettingsAnimal exception in SwallowWholeLibrary.settings.animalMawException)
                         {
                             if (settingsAnimal.defName == exception.defName)
                             {
@@ -45,7 +45,7 @@ namespace EVM
                             }
                         }
 
-                        EnderfreesVoreMod.settings.mawList.Add(settingsAnimal);
+                        SwallowWholeLibrary.settings.mawList.Add(settingsAnimal);
                     }
                 }
             }
@@ -53,7 +53,7 @@ namespace EVM
             foreach (XenotypeDef xenotypeDef in DefDatabase<XenotypeDef>.AllDefsListForReading)
             {
                 bool found = false;
-                foreach (XenotypeUnifier xenotypeUnifier in EnderfreesVoreMod.settings.xenotypes)
+                foreach (XenotypeUnifier xenotypeUnifier in SwallowWholeLibrary.settings.xenotypes)
                 {
                     if (xenotypeDef.defName == xenotypeUnifier.defName)
                     {
@@ -70,7 +70,7 @@ namespace EVM
                         label = xenotypeDef.label
                     };
 
-                    foreach (XenotypeUnifier exception in EnderfreesVoreMod.settings.xenotypeMawException)
+                    foreach (XenotypeUnifier exception in SwallowWholeLibrary.settings.xenotypeMawException)
                     {
                         if (xenotypeUnifier.ToString() == exception.ToString())
                         {
@@ -79,7 +79,7 @@ namespace EVM
                         }
                     }
 
-                    EnderfreesVoreMod.settings.xenotypes.Add(xenotypeUnifier);
+                    SwallowWholeLibrary.settings.xenotypes.Add(xenotypeUnifier);
                 }
             }
         }

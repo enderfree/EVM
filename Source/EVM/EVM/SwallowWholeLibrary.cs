@@ -10,13 +10,13 @@ using System.Diagnostics;
 
 namespace EVM
 {
-    internal class EnderfreesVoreMod: Mod
+    internal class SwallowWholeLibrary: Mod
     {
         private static Vector2 scrollPosition = Vector2.zero;
 
         public static Settings settings;
 
-        public EnderfreesVoreMod(ModContentPack content) : base(content)
+        public SwallowWholeLibrary(ModContentPack content) : base(content)
         {
             settings = GetSettings<Settings>();
         }
@@ -83,7 +83,7 @@ namespace EVM
                     listing_Standard.Gap(12f);
 
                     listing_Standard.CheckboxLabeled("Swallow Ignores Size", ref settings.swallowIgnoresSize, 1f);
-                    listing_Standard.CheckboxLabeled("Vore Debug Options", ref settings.voreDebugOptions, 1f);
+                    listing_Standard.CheckboxLabeled("Debug Options", ref settings.debugOptions, 1f);
 
                     if (float.TryParse(listing_Standard.TextEntryLabeled("Default Maw Size", settings.DefaultMawSize.ToString()), out float defaultMawSize))
                     {
@@ -147,7 +147,7 @@ namespace EVM
 
         public override string SettingsCategory()
         {
-            return "Enderfree's Vore Mod";
+            return "Swallow Whole Library";
         }
     }
 }

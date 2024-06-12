@@ -26,7 +26,7 @@ namespace EVM
         {
             this.name = name;
             this.defName = defname;
-            this.preySize = EnderfreesVoreMod.settings.DefaultMawSize;
+            this.preySize = SwallowWholeLibrary.settings.DefaultMawSize;
         }
 
         public SettingsAnimal(string defname, float preySize)
@@ -40,7 +40,7 @@ namespace EVM
         {
             this.name = defname;
             this.defName = defname;
-            this.preySize = EnderfreesVoreMod.settings.DefaultMawSize;
+            this.preySize = SwallowWholeLibrary.settings.DefaultMawSize;
         }
 
         // Mandatory
@@ -50,9 +50,9 @@ namespace EVM
 
         public void ExposeData()
         {
-            Scribe_Values.Look<string>(ref name, "PredatorsSwallow_AnimalSettings_Name");
-            Scribe_Values.Look<string>(ref defName, "PredatorsSwallow_AnimalSettings_DefName");
-            Scribe_Values.Look<float>(ref preySize, "PredatorsSwallow_AnimalSettings_PreySize");
+            Scribe_Values.Look<string>(ref name, "EVM_AnimalSettings_Name");
+            Scribe_Values.Look<string>(ref defName, "EVM_AnimalSettings_DefName");
+            Scribe_Values.Look<float>(ref preySize, "EVM_Swallow_AnimalSettings_PreySize");
         }
     }
 }

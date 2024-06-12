@@ -10,29 +10,29 @@ using Verse;
 namespace EVM
 {
     // this class contain the vore properties and default values needed for vore
-    public class VoreProperties: IExposable
+    public class SwallowWholeProperties: IExposable
     {
         // static variables
-        public static List<VoreProperties> passer = new List<VoreProperties>();
+        public static List<SwallowWholeProperties> passer = new List<SwallowWholeProperties>();
 
         // no default value
         public Pawn pred;
         public Thing prey;
 
         // constructors
-        public VoreProperties()
+        public SwallowWholeProperties()
         {
 
         }
 
-        public VoreProperties(Pawn pred, Thing prey) 
+        public SwallowWholeProperties(Pawn pred, Thing prey) 
         {
             this.pred = pred;
             this.prey = prey;
         }
 
         // defined per maw
-        public float mawSize = EnderfreesVoreMod.settings.DefaultMawSize; // percent compared to creature size
+        public float mawSize = SwallowWholeLibrary.settings.DefaultMawSize; // percent compared to creature size
 
         // defined per stomach
         public float baseDamage = 10f;
@@ -104,7 +104,7 @@ namespace EVM
                 return false;
             }
 
-            if (!EnderfreesVoreMod.settings.swallowIgnoresSize && prey is Pawn preyPawn)
+            if (!SwallowWholeLibrary.settings.swallowIgnoresSize && prey is Pawn preyPawn)
             {
                 if (preyPawn.BodySize > pred.BodySize * mawSize)
                 {
@@ -122,18 +122,18 @@ namespace EVM
 
         public void ExposeData()
         {
-            Scribe_References.Look<Pawn>(ref pred, "EVM_VoreProperties_Pred");
-            Scribe_References.Look<Thing>(ref prey, "EVM_VoreProperties_Prey");
+            Scribe_References.Look<Pawn>(ref pred, "EVM_SwallowWholeProperties_Pred");
+            Scribe_References.Look<Thing>(ref prey, "EVM_SwallowWholeProperties_Prey");
 
-            Scribe_Values.Look<int>(ref trackId, "EVM_VoreProperties_TrackId");
-            Scribe_Values.Look<int>(ref trackStage, "EVM_VoreProperties_TrackStage");
-            Scribe_Values.Look<bool>(ref struggle, "EVM_VoreProperties_Struggle");
+            Scribe_Values.Look<int>(ref trackId, "EVM_SwallowWholeProperties_TrackId");
+            Scribe_Values.Look<int>(ref trackStage, "EVM_SwallowWholeProperties_TrackStage");
+            Scribe_Values.Look<bool>(ref struggle, "EVM_SwallowWholeProperties_Struggle");
 
-            Scribe_Deep.Look<DigestionWorker>(ref digestionWorker, "EVM_VoreProperties_DigestionWorker");
+            Scribe_Deep.Look<DigestionWorker>(ref digestionWorker, "EVM_SwallowWholeProperties_DigestionWorker");
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                VoreProperties xmlFetcher = Utils.GetVorePropertiesFromTags(pred, prey, trackId, trackStage, struggle);
+                SwallowWholeProperties xmlFetcher = Utils.GetSwallowWholePropertiesFromTags(pred, prey, trackId, trackStage, struggle);
 
                 mawSize = xmlFetcher.mawSize;
 

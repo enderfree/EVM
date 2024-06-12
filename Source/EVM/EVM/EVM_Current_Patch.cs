@@ -18,7 +18,7 @@ namespace EVM
             foreach (CustomXenotype customXenotype in __instance.customXenotypes)
             {
                 bool found = false;
-                foreach (XenotypeUnifier xenotypeUnifier in EnderfreesVoreMod.settings.xenotypes)
+                foreach (XenotypeUnifier xenotypeUnifier in SwallowWholeLibrary.settings.xenotypes)
                 {
                     if (customXenotype.name == xenotypeUnifier.name)
                     {
@@ -29,7 +29,7 @@ namespace EVM
 
                 if (!found)
                 {
-                    EnderfreesVoreMod.settings.xenotypes.Add(new XenotypeUnifier() { name = customXenotype.name });
+                    SwallowWholeLibrary.settings.xenotypes.Add(new XenotypeUnifier() { name = customXenotype.name });
                 }
             }
         }

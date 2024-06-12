@@ -19,7 +19,7 @@ namespace EVM
         {
             __state = false;
             
-            if (EnderfreesVoreMod.settings.predatorsSwallow && Utils.GetVorePropertiesFromTags(__instance.pawn, __instance.Prey).IsValid(false))
+            if (SwallowWholeLibrary.settings.predatorsSwallow && Utils.GetSwallowWholePropertiesFromTags(__instance.pawn, __instance.Prey).IsValid(false))
             {
                 __state = true;
             }
@@ -32,7 +32,7 @@ namespace EVM
             //Log.Message("reach post");
             if (__state)
             {
-                //Log.Message("Vore");
+                //Log.Message("Swallow Whole");
                 yield return Toils_General.DoAtomic(delegate
                 {
                     __instance.pawn.MapHeld.attackTargetsCache.UpdateTarget(__instance.pawn);
@@ -56,7 +56,7 @@ namespace EVM
                 sendMessageIfNeeded();
 
                 yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.ClosestTouch);
-                yield return Toils_Vore.Vore(Utils.GetVorePropertiesFromTags(__instance.pawn, __instance.Prey));
+                yield return Toils_Food.SwallowWhole(Utils.GetSwallowWholePropertiesFromTags(__instance.pawn, __instance.Prey));
                 yield break;
             }
             else

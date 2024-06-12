@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Enderfree's Vore Mod</name>
+    <name>The Swallow Whole Library</name>
     <author>enderfree</author>
-    <packageId>enderfree.vore.vore</packageId>
+    <packageId>enderfree.logic.SwallowWhole</packageId>
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
@@ -19,5 +19,5 @@
 	<incompatibleWith>
 		<li>enderfree.logic.PredatorsSwallow</li>
 	</incompatibleWith>
-    <description>People kept saying some of my mods are vore mods, so lets the vore begin for real this time.</description>
+    <description>A library mod that manages a pawn swallowing another whole. Good for snakes and reducing the number of corpses on the map.</description>
 </ModMetaData>

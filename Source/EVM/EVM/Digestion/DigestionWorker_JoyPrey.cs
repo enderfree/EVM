@@ -10,7 +10,7 @@ namespace EVM.Digestion
 {
     public class DigestionWorker_JoyPrey : DigestionWorker
     {
-        public override void ApplyDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override void ApplyDigestion(SwallowWholeProperties voreProperties, ThingOwner innerContainer)
         {
             foreach (Thing thing in innerContainer)
             {
@@ -26,12 +26,12 @@ namespace EVM.Digestion
             }
         }
 
-        public override float GetNutritionFromDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
             return 0f;
         }
 
-        public override float GetNutritionFromDigestionTick(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestionTick(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
             return 0f;
         }

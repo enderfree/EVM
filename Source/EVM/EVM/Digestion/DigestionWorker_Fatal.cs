@@ -11,25 +11,25 @@ namespace EVM.Digestion
     public class DigestionWorker_Fatal : DigestionWorker
     {
 
-        public override void ApplyDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override void ApplyDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
-            float digestionEfficiancy = base.GetDigestionEfficiancy(voreProperties);
+            float digestionEfficiancy = base.GetDigestionEfficiancy(swallowWholeProperties);
             
             if (digestionEfficiancy > 0)
             {
                 // digest
-                float damage = voreProperties.baseDamage * digestionEfficiancy;
+                float damage = swallowWholeProperties.baseDamage * digestionEfficiancy;
 
                 foreach (Thing thing in innerContainer)
                 {
-                    if (voreProperties.canDigest(thing))
+                    if (swallowWholeProperties.canDigest(thing))
                     {
                         thing.TakeDamage(new DamageInfo(
-                            voreProperties.digestionDamageType,
+                            swallowWholeProperties.digestionDamageType,
                             damage,
                             100f,
                             -1f,
-                            voreProperties.pred,
+                            swallowWholeProperties.pred,
                             null,
                             null,
                             DamageInfo.SourceCategory.ThingOrUnknown,
@@ -42,13 +42,13 @@ namespace EVM.Digestion
             }
         }
 
-        public override float GetNutritionFromDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
             float nutrition = 0f;
 
             foreach (Thing thing in innerContainer)
             {
-                if (!voreProperties.canDigest(thing))
+                if (!swallowWholeProperties.canDigest(thing))
                 {
                     Corpse corpse = null;
 
@@ -79,7 +79,7 @@ namespace EVM.Digestion
             return nutrition;
         }
 
-        public override float GetNutritionFromDigestionTick(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestionTick(SwallowWholeProperties voreProperties, ThingOwner innerContainer)
         {
             float nutrition = 0f;
 

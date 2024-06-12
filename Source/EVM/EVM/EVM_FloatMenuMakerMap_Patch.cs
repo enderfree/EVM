@@ -14,9 +14,9 @@ namespace EVM
     internal class EVM_FloatMenuMakerMap_Patch
     {
         [HarmonyPostfix]
-        public static void AddVoreOptions(Vector3 clickPos, Pawn pawn, List<FloatMenuOption> opts) 
+        public static void AddRightClickOptions(Vector3 clickPos, Pawn pawn, List<FloatMenuOption> opts) 
         {
-            if (EnderfreesVoreMod.settings.voreDebugOptions)
+            if (SwallowWholeLibrary.settings.debugOptions)
             {
                 // For every Pawn in the map
                 foreach (LocalTargetInfo localTargetInfo in GenUI.TargetsAt(clickPos, TargetingParameters.ForPawns(), true, null))
@@ -27,30 +27,30 @@ namespace EVM
                     if (food != pawn)
                     {
                         // Vore
-                        VoreProperties voreProperties = Utils.GetVorePropertiesFromTags(pawn, food);
+                        SwallowWholeProperties swallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(pawn, food);
 
-                        for (int i = 0; i < voreProperties.digestiveTracks.Count; ++i)
+                        for (int i = 0; i < swallowWholeProperties.digestiveTracks.Count; ++i)
                         {
-                            voreProperties.trackId = i;
+                            swallowWholeProperties.trackId = i;
 
-                            opts.Add(new FloatMenuOption("Vore " + food.LabelShort + " (" + voreProperties.digestiveTracks[i].purpose + ")", delegate () {
-                                VoreProperties.passer.Add(voreProperties);
-                                pawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(InternalDefOf.Vore, food));
+                            opts.Add(new FloatMenuOption("Eat " + food.LabelShort + " (" + swallowWholeProperties.digestiveTracks[i].purpose + ")", delegate () {
+                                SwallowWholeProperties.passer.Add(swallowWholeProperties);
+                                pawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(InternalDefOf.EVM_Eat, food));
                             }));
                         }
                     }
                     else
                     {
                         // Regurgitate
-                        List<HediffVore> hediffVores = new List<HediffVore>();
-                        pawn.health.hediffSet.GetHediffs<HediffVore>(ref hediffVores);
+                        List<PreyContainer> preyContainers = new List<PreyContainer>();
+                        pawn.health.hediffSet.GetHediffs<PreyContainer>(ref preyContainers);
 
-                        foreach (HediffVore hediffVore in hediffVores)
+                        foreach (PreyContainer preyContainer in preyContainers)
                         {
-                            foreach (Thing thing in hediffVore.innerContainer)
+                            foreach (Thing thing in preyContainer.innerContainer)
                             {
                                 opts.Add(new FloatMenuOption("Regurgitate " + thing.LabelShort, delegate () {
-                                    if (hediffVore.voreProperties.baseDamage > 0f)
+                                    if (preyContainer.swallowWholeProperties.baseDamage > 0f)
                                     {
                                         pawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(JobDefOf.Vomit));
                                     }

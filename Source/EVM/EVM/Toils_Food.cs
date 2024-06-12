@@ -9,23 +9,23 @@ using Verse.AI;
 
 namespace EVM
 {
-    public static class Toils_Vore
+    public static class Toils_Food
     {
-        public static Toil Vore(VoreProperties voreProperties)
+        public static Toil SwallowWhole(SwallowWholeProperties swallowWholeProperties)
         {
             Toil toil = ToilMaker.MakeToil("Vore");
             toil.initAction = delegate ()
             {
-                if (voreProperties.pred == null)
+                if (swallowWholeProperties.pred == null)
                 {
-                    voreProperties.pred = toil.actor;
+                    swallowWholeProperties.pred = toil.actor;
                 }
                 
-                if (voreProperties.IsValid(true))
+                if (swallowWholeProperties.IsValid(true))
                 {
-                    HediffVore hediffVore = (HediffVore)voreProperties.pred.health.AddHediff(InternalDefOf.EVM_Vore, voreProperties.pred.RaceProps.body.GetPartsWithDef(voreProperties.digestiveTracks[voreProperties.trackId].track[voreProperties.trackStage])[0]);
-                    hediffVore.voreProperties = voreProperties;
-                    Utils.Vore(hediffVore, voreProperties.prey);
+                    PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage])[0]);
+                    preyContainer.swallowWholeProperties = swallowWholeProperties;
+                    Utils.SwallowWhole(preyContainer, swallowWholeProperties.prey);
                 }
             };
 

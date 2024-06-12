@@ -33,15 +33,15 @@ namespace EVM.Digestion
             return healingPool;
         }
 
-        public override void ApplyDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override void ApplyDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
-            float healingPool = voreProperties.baseDamage * base.GetDigestionEfficiancy(voreProperties);
+            float healingPool = swallowWholeProperties.baseDamage * base.GetDigestionEfficiancy(swallowWholeProperties);
 
             if (healingPool > 0)
             {
                 foreach (Thing thing in innerContainer)
                 {
-                    if (voreProperties.canDigest(thing))
+                    if (swallowWholeProperties.canDigest(thing))
                     {
                         if (thing is Pawn pawn)
                         {
@@ -52,19 +52,19 @@ namespace EVM.Digestion
             }
         }
 
-        public override float GetNutritionFromDigestionTick(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestionTick(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
-            float healingPool = voreProperties.baseDamage * base.GetDigestionEfficiancy(voreProperties);
+            float healingPool = swallowWholeProperties.baseDamage * base.GetDigestionEfficiancy(swallowWholeProperties);
             allHealingSoFar += healingPool;
 
             return healingPool;
         }
 
-        public override float GetNutritionFromDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
             float nutrition = 0f;
 
-            if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
+            if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
             {
                 foreach (Thing thing in innerContainer)
                 {
@@ -77,7 +77,7 @@ namespace EVM.Digestion
                     }
                 }
             }
-            else if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.AfterDigestion)
+            else if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.AfterDigestion)
             {
                 nutrition = allHealingSoFar;
             }
@@ -89,7 +89,7 @@ namespace EVM.Digestion
 
         public override void ExposeData()
         {
-            Scribe_Values.Look<float>(ref allHealingSoFar, "EVM_HealingVoreWorker_HealingPoolCount");
+            Scribe_Values.Look<float>(ref allHealingSoFar, "EVM_DigestionWorkerTend_HealingPoolCount");
         }
     }
 }

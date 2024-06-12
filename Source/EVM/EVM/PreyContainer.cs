@@ -9,7 +9,7 @@ using EVM.Digestion;
 
 namespace EVM
 {
-    public class HediffVore: HediffWithComps, IThingHolder
+    public class PreyContainer: HediffWithComps, IThingHolder
     {
         public override bool TryMergeWith(Hediff other)
         {
@@ -20,16 +20,16 @@ namespace EVM
         {
             base.PostAdd(dinfo);
             innerContainer = new ThingOwner<Thing>(this, false, LookMode.Deep);
-            remainingStageTime = voreProperties.deadline;
+            remainingStageTime = swallowWholeProperties.deadline;
 
-            if (voreProperties.pred == null)
+            if (swallowWholeProperties.pred == null)
             {
-                voreProperties.pred = this.pawn;
+                swallowWholeProperties.pred = this.pawn;
             }
 
-            if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
+            if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
             {
-                voreProperties.digestionWorker.GetNutritionFromDigestion(voreProperties, innerContainer);
+                swallowWholeProperties.digestionWorker.GetNutritionFromDigestion(swallowWholeProperties, innerContainer);
             }
         }
 
@@ -48,33 +48,33 @@ namespace EVM
             if (Find.TickManager.TicksGame % 530 == 0)
             {
                 // digestion
-                voreProperties.digestionWorker.ApplyDigestion(voreProperties, innerContainer);
-                if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.PerDigestionTick)
+                swallowWholeProperties.digestionWorker.ApplyDigestion(swallowWholeProperties, innerContainer);
+                if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.PerDigestionTick)
                 {
-                    Need_Food foodNeed = voreProperties.pred.needs?.TryGetNeed<Need_Food>();
+                    Need_Food foodNeed = swallowWholeProperties.pred.needs?.TryGetNeed<Need_Food>();
 
                     if (foodNeed != null)
                     {
-                        if (voreProperties.grantsNutrition)
+                        if (swallowWholeProperties.grantsNutrition)
                         {
-                            foodNeed.CurLevel += voreProperties.digestionWorker.GetNutritionFromDigestionTick(voreProperties, innerContainer);
+                            foodNeed.CurLevel += swallowWholeProperties.digestionWorker.GetNutritionFromDigestionTick(swallowWholeProperties, innerContainer);
                         }
 
-                        foodNeed.CurLevel -= voreProperties.nutritionCost;
+                        foodNeed.CurLevel -= swallowWholeProperties.nutritionCost;
                     }
                 }
 
-                if (voreProperties.struggle)
+                if (swallowWholeProperties.struggle)
                 {
                     foreach (Thing thing in innerContainer)
                     {
-                        voreProperties.digestionWorker.Struggle(thing, voreProperties);
+                        swallowWholeProperties.digestionWorker.Struggle(thing, swallowWholeProperties);
                     }
                 }
             }
 
             // Sleep if you're not being digested
-            if (voreProperties.baseDamage == 0 && !voreProperties.struggle)
+            if (swallowWholeProperties.baseDamage == 0 && !swallowWholeProperties.struggle)
             {
                 foreach (Thing thing in innerContainer)
                 {
@@ -87,7 +87,7 @@ namespace EVM
                             Need_Comfort comfortNeed = pawn.needs?.TryGetNeed<Need_Comfort>();
                             if (comfortNeed != null)
                             {
-                                comfortNeed.ComfortUsed(voreProperties.comfort);
+                                comfortNeed.ComfortUsed(swallowWholeProperties.comfort);
                             }
 
                             restNeed.TickResting(1);
@@ -99,10 +99,10 @@ namespace EVM
             // Move Along
             if (--remainingStageTime <= 0)
             {
-                if (voreProperties.trackStage + 1 < voreProperties.digestiveTracks[voreProperties.trackId].track.Count)
+                if (swallowWholeProperties.trackStage + 1 < swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track.Count)
                 {
-                    HediffVore next = (HediffVore)voreProperties.pred.health.AddHediff(InternalDefOf.EVM_Vore, voreProperties.pred.RaceProps.body.GetPartsWithDef(voreProperties.digestiveTracks[voreProperties.trackId].track[voreProperties.trackStage + 1])[0]);
-                    next.voreProperties = Utils.GetVorePropertiesFromTags(voreProperties.pred, voreProperties.prey, voreProperties.trackId, voreProperties.trackStage + 1, voreProperties.struggle);
+                    PreyContainer next = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage + 1])[0]);
+                    next.swallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(swallowWholeProperties.pred, swallowWholeProperties.prey, swallowWholeProperties.trackId, swallowWholeProperties.trackStage + 1, swallowWholeProperties.struggle);
                 }
                 else
                 {
@@ -112,7 +112,7 @@ namespace EVM
 
             if (innerContainer.Count <= 0)
             {
-                voreProperties.pred.health.RemoveHediff(this);
+                swallowWholeProperties.pred.health.RemoveHediff(this);
             }
         }
 
@@ -145,7 +145,7 @@ namespace EVM
         { 
             get
             {
-                return "Contains: " + voreProperties.prey + (voreProperties.prey.stackCount != 1 ? "x" + voreProperties.prey.stackCount : "");
+                return "Contains: " + swallowWholeProperties.prey + (swallowWholeProperties.prey.stackCount != 1 ? "x" + swallowWholeProperties.prey.stackCount : "");
             }
         }
 
@@ -153,17 +153,17 @@ namespace EVM
         {
             get
             {
-                if (voreProperties.prey is Pawn pawn)
+                if (swallowWholeProperties.prey is Pawn pawn)
                 {
                     return pawn.health.summaryHealth.SummaryHealthPercent * 100 + "%" + (pawn.Downed ? " downed" : "");
                 }
 
-                return voreProperties.prey.HitPoints / voreProperties.prey.MaxHitPoints * 100 + "%";
+                return swallowWholeProperties.prey.HitPoints / swallowWholeProperties.prey.MaxHitPoints * 100 + "%";
             }
         }
 
         public ThingOwner innerContainer;
-        public VoreProperties voreProperties = new VoreProperties();
+        public SwallowWholeProperties swallowWholeProperties = new SwallowWholeProperties();
         public int remainingStageTime;
     }
 }

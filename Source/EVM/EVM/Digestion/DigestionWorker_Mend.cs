@@ -10,9 +10,9 @@ namespace EVM.Digestion
 {
     public class DigestionWorker_Mend : DigestionWorker
     {
-        public override void ApplyDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override void ApplyDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
-            float mendingPool = voreProperties.baseDamage * base.GetDigestionEfficiancy(voreProperties);
+            float mendingPool = swallowWholeProperties.baseDamage * base.GetDigestionEfficiancy(swallowWholeProperties);
             allMendingSoFar += mendingPool;
 
             if (mendingPool > 0)
@@ -35,11 +35,11 @@ namespace EVM.Digestion
             }
         }
 
-        public override float GetNutritionFromDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
             float nutrition = 0f;
 
-            if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
+            if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
             {
                 foreach (Thing thing in innerContainer)
                 {
@@ -53,7 +53,7 @@ namespace EVM.Digestion
                     }
                 }
             }
-            else if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.AfterDigestion)
+            else if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.AfterDigestion)
             {
                 nutrition = allMendingSoFar;
             }
@@ -61,9 +61,9 @@ namespace EVM.Digestion
             return nutrition;
         }
 
-        public override float GetNutritionFromDigestionTick(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestionTick(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
-            return voreProperties.baseDamage * base.GetDigestionEfficiancy(voreProperties);
+            return swallowWholeProperties.baseDamage * base.GetDigestionEfficiancy(swallowWholeProperties);
         }
 
         public float allMendingSoFar = 0f;

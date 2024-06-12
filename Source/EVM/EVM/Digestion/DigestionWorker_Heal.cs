@@ -55,11 +55,11 @@ namespace EVM.Digestion
             yield break;
         }
 
-        public override float GetNutritionFromDigestion(VoreProperties voreProperties, ThingOwner innerContainer)
+        public override float GetNutritionFromDigestion(SwallowWholeProperties voreProperties, ThingOwner innerContainer)
         {
             float nutrition = base.GetNutritionFromDigestion(voreProperties, innerContainer);
 
-            if (EnderfreesVoreMod.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
+            if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.OnEating)
             {
                 foreach (Thing thing in innerContainer)
                 {

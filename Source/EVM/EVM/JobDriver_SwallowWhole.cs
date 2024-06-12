@@ -9,7 +9,7 @@ using Verse.AI;
 
 namespace EVM
 {
-    internal class JobDriver_Vore : JobDriver
+    internal class JobDriver_SwallowWhole : JobDriver
     {
         private Pawn OtherPawn
         {
@@ -26,28 +26,28 @@ namespace EVM
 
         protected override IEnumerable<Toil> MakeNewToils()
         {
-            VoreProperties voreProperties = null;
+            SwallowWholeProperties swallowWholeProperties = null;
 
-            foreach (VoreProperties vp in VoreProperties.passer)
+            foreach (SwallowWholeProperties vp in SwallowWholeProperties.passer)
             {
                 if (vp.pred == this.pawn && vp.prey == OtherPawn)
                 {
-                    voreProperties = vp;
+                    swallowWholeProperties = vp;
                     break;
                 }
             }
 
-            if (voreProperties != null)
+            if (swallowWholeProperties != null)
             {
-                VoreProperties.passer.Remove(voreProperties);
+                SwallowWholeProperties.passer.Remove(swallowWholeProperties);
             }
             else
             {
-                voreProperties = Utils.GetVorePropertiesFromTags(this.pawn, OtherPawn);
+                swallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(this.pawn, OtherPawn);
             }
             
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.ClosestTouch);
-            yield return Toils_Vore.Vore(voreProperties);
+            yield return Toils_Food.SwallowWhole(swallowWholeProperties);
             yield break;
         }
     }
