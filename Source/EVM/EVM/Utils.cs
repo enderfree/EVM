@@ -57,18 +57,43 @@ namespace EVM
             } 
             else if (pred.RaceProps.Humanlike)
             {
-                IEnumerable<float> matches = from x
-                                             in SwallowWholeLibrary.settings.xenotypes
-                                             where x.ToString() == pred.genes.Xenotype.defName || 
-                                                x.ToString() == pred.genes.CustomXenotype.name
-                                             select x.preySize;
-
-                if (matches.Count() > 0)
+                Log.Message(pred.Name.ToStringFull);
+                Log.Message(pred.genes);
+                Log.Message(pred.genes.Xenotype);
+                Log.Message(pred.genes.Xenotype.defName);
+                foreach (XenotypeUnifier xenotypeUnifier in SwallowWholeLibrary.settings.xenotypes)
                 {
-                    swallowWholeProperties.mawSize = matches.First();
+                    Log.Message("You'd better not be null");
+                    if (pred.genes.Xenotype != null)
+                    {
+                        if (xenotypeUnifier.ToString() == pred.genes.Xenotype.defName)
+                        {
+                            swallowWholeProperties.mawSize = xenotypeUnifier.preySize;
+                            break;
+                        }
+                    }
+                    else if (pred.genes.CustomXenotype != null)
+                    {
+                        if (xenotypeUnifier.ToString() == pred.genes.CustomXenotype.name)
+                        {
+                            swallowWholeProperties.mawSize = xenotypeUnifier.preySize;
+                            break;
+                        }
+                    }
                 }
-            }
 
+                //IEnumerable<float> matches = from x
+                //                             in SwallowWholeLibrary.settings.xenotypes
+                //                             where x.ToString() == pred.genes.Xenotype.defName || 
+                //                                x.ToString() == pred.genes.CustomXenotype.name
+                //                             select x.preySize;
+                    
+                //if (matches.Count() > 0)
+                //{
+                //    swallowWholeProperties.mawSize = matches.First();
+                //}
+            }
+            Log.Message("DT");
             // Digestive Tracks
             BodyPartExtension bodyPartExtension = pred.RaceProps.body.GetModExtension<BodyPartExtension>();
             if (bodyPartExtension != null) 
@@ -78,7 +103,7 @@ namespace EVM
                     swallowWholeProperties.digestiveTracks = bodyPartExtension.digestiveTracks;
                 }
             }
-            
+            Log.Message("Stomach");
             // Stomach
             if (trackId < swallowWholeProperties.digestiveTracks.Count)
             {
@@ -151,7 +176,7 @@ namespace EVM
             {
                 Log.Error("[EVM.Utils.GetSwallowWholePropertiesFromTags]: trackId out of bounds");
             }
-
+            Log.Message("End");
             return swallowWholeProperties;
         }
 

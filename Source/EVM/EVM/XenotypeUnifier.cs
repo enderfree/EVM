@@ -9,11 +9,46 @@ namespace EVM
 {
     internal class XenotypeUnifier: IExposable
     {
-        public string defName = "";
-        public string label = "";
-        public string name = "";
-        public float preySize = SwallowWholeLibrary.settings.DefaultMawSize;
+        public string defName;
+        public string label;
+        public string name;
+        public float preySize;
 
+        public XenotypeUnifier(string defName, string label, string name, float preySize) 
+        { 
+            this.defName = defName;
+            this.label = label;
+            this.name = name;
+            this.preySize = preySize;
+        }
+
+        public XenotypeUnifier(string defName, string label, float preySize)
+        {
+            this.defName = defName;
+            this.label = label;
+            this.preySize = preySize;
+        }
+
+        public XenotypeUnifier(string name, float preySize)
+        {
+            this.name = name;
+            this.preySize = preySize;
+        }
+
+        public XenotypeUnifier(string defName, string label)
+        {
+            this.defName = defName;
+            this.label = label;
+            this.preySize = SwallowWholeLibrary.settings.DefaultMawSize;
+        }
+
+        public XenotypeUnifier(string name)
+        {
+            this.name = name;
+            this.preySize = SwallowWholeLibrary.settings.DefaultMawSize;
+        }
+
+        // Mandatory
         public XenotypeUnifier()
         {
         }

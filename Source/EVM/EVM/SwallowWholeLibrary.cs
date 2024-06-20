@@ -77,7 +77,10 @@ namespace EVM
                     listing_Standard.Label("Nutrition Gain Moment");
                     foreach (NutritionGainOptions nutritionGainOption in nutritionGainOptions)
                     {
-                        listing_Standard.RadioButton(nutritionGainOption.GetDescription(), settings.nutritionGainOption == (int)nutritionGainOption);
+                        if(listing_Standard.RadioButton(nutritionGainOption.GetDescription(), settings.nutritionGainOption == (int)nutritionGainOption))
+                        {
+                            settings.nutritionGainOption = (int)nutritionGainOption;
+                        }
                     }
 
                     listing_Standard.Gap(12f);

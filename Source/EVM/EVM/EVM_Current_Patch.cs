@@ -29,7 +29,7 @@ namespace EVM
 
                 if (!found)
                 {
-                    SwallowWholeLibrary.settings.xenotypes.Add(new XenotypeUnifier() { name = customXenotype.name });
+                    SwallowWholeLibrary.settings.xenotypes.Add(new XenotypeUnifier(customXenotype.name));
                 }
             }
         }

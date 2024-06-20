@@ -15,7 +15,7 @@ namespace EVM
         [HarmonyPostfix]
         public static void AddToXenotypeList(CustomXenotype xenotype, string absFilePath)
         {
-            SwallowWholeLibrary.settings.xenotypes.Add(new XenotypeUnifier() { name = xenotype.name });
+            SwallowWholeLibrary.settings.xenotypes.Add(new XenotypeUnifier(xenotype.name));
         }
     }
 }

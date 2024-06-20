@@ -70,6 +70,7 @@
     <Compile Include="Digestion\DigestionWorker_Tend.cs" />
     <Compile Include="Digestion\DigestionWorker_Safe.cs" />
     <Compile Include="DigestiveTrack.cs" />
+    <Compile Include="EVM_PawnGenerator_Patch.cs" />
     <Compile Include="SwallowWholeLibrary.cs" />
     <Compile Include="EVM_Current_Patch.cs" />
     <Compile Include="EVM_FloatMenuMakerMap_Patch.cs" />

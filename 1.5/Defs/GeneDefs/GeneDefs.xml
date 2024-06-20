@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+	<GeneDef>
+		<defName>EVM_SnakeMaw</defName>
+		<label>Snake Maw</label>
+		<description>Pawns with this gene can swallow creatures up to twice their size.</description>
+		<iconPath>UI/Icons/Genes/EVM_SnakeMaw</iconPath>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>maw</symbol>
+				</li>
+				<li>
+					<symbol>stretch</symbol>
+				</li>
+				<li>
+					<symbol>vor</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_Roomy</defName>
+		<label>Roomy Inards</label>
+		<description>Pawns with this gene can contain twice the normal quantity of preys for their size.</description>
+		<iconPath>UI/Icons/Genes/EVM_Roomy</iconPath>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>roomy</symbol>
+				</li>
+				<li>
+					<symbol>innards</symbol>
+				</li>
+				<li>
+					<symbol>spacious</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<!-- Digestion Workers -->
+	
+		<!-- Skipping Fatal as it is by default -->
+	
+		<!-- Healing -->
+		
+	<GeneDef>
+		<defName>EVM_DigestionWorker_Tend</defName>
+		<label>Tending Stomach</label>
+		<description>Adds a stomach that tend to wounds rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_TendingStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>tending</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_DigestionWorker_Heal</defName>
+		<label>Healing Stomach</label>
+		<description>Adds a stomach that accelerates healing rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_HealingStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>4</biostatCpx>
+		<biostatMet>4</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>healing</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_DigestionWorker_HealScars</defName>
+		<label>Healing Stomach+</label>
+		<description>Adds a stomach that accelerates healing and heals scars rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_HealingStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>6</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>healing</symbol>
+				</li>
+				<li>
+					<symbol>scar</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_DigestionWorker_Regenerate</defName>
+		<label>Restoring Stomach</label>
+		<description>Adds a stomach that regenerate missing parts rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_HealingStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>6</biostatCpx>
+		<biostatMet>8</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>regenerating</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_DigestionWorker_Mend</defName>
+		<label>Mending Stomach</label>
+		<description>Adds a stomach that repair objects and mechanoids rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_MendingStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>4</biostatCpx>
+		<biostatMet>4</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>mending</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+		<!-- Joy -->
+		
+	<GeneDef>
+		<defName>EVM_DigestionWorker_JoyPred</defName>
+		<label>Enjoy Preysence</label>
+		<description>Adds a stomach that provides gluttonous recreation rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_JoyPred</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>joy</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_DigestionWorker_JoyPrey</defName>
+		<label>Relaxing Stomach</label>
+		<description>Adds a stomach that provides meditative recreation rather than digesting the preys.</description>
+		<iconPath>UI/Icons/Genes/EVM_JoyPrey</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>70</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>joy</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+	
+		<!-- Misc -->
+		
+	<GeneDef>
+		<defName>EVM_DigestionWorker_Safe</defName>
+		<label>Safe Stomach</label>
+		<description>Adds a stomach that does nothing.</description>
+		<iconPath>UI/Icons/Genes/EVM_SafeStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>80</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>empty</symbol>
+				</li>
+				<li>
+					<symbol>safe</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>-->
+</Defs>

@@ -2,7 +2,7 @@
 <Defs>
 	<JobDef>
 		<defName>EVM_Eat</defName>
-		<driverClass>EVM.JobDriver_Eat</driverClass>
+		<driverClass>EVM.JobDriver_SwallowWhole</driverClass>
 		<reportString>eating TargetA.</reportString>
 	</JobDef>
 	

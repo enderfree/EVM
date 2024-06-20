@@ -27,7 +27,7 @@ namespace EVM
             return true;
         }
 
-        static IEnumerable<Toil> VoreIfYouShould(IEnumerable<Toil> toils, JobDriver_PredatorHunt __instance, bool __state, MethodBase __originalMethod, bool ___firstHit, bool ___notifiedPlayerAttacked)
+        static IEnumerable<Toil> SwallowWholeIfYouShould(IEnumerable<Toil> toils, JobDriver_PredatorHunt __instance, bool __state, MethodBase __originalMethod, bool ___firstHit, bool ___notifiedPlayerAttacked)
         {
             //Log.Message("reach post");
             if (__state)

@@ -16,6 +16,8 @@ namespace EVM
         public static JobDef EVM_Eat;
         public static JobDef EVM_Regurgitate;
 
+        public static GeneCategoryDef EVM_DigestionWorker;
+
         // Core
         public static DamageArmorCategoryDef Blunt;
 
