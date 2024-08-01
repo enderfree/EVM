@@ -62,14 +62,17 @@ namespace EVM.Digestion
                     {
                         damage /= 2;
                     }
-                    
+
+                    StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage];
+                    BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
+
                     swallowWholeProperties.pred.TakeDamage(new DamageInfo(
                             damageDef,
                             damage,
                             500f,
                             -1,
                             struggler,
-                            swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage])[0],
+                            swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0],
                             null,
                             DamageInfo.SourceCategory.ThingOrUnknown,
                             swallowWholeProperties.pred,

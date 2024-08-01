@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- this is just a copy of the base game's stomact as I cannot inherit from it -->
+	<BodyPartDef Name="EVM_BaseStomach" Abstract="True">
+		<defName>EVM_BaseStomach</defName>
+		<label>base stomach</label>
+		<hitPoints>20</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>MetabolismSource</li>
+		</tags>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_TendingStomach">
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>0</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Tend</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+</Defs>

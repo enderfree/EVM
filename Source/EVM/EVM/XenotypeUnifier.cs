@@ -48,7 +48,6 @@ namespace EVM
             this.preySize = SwallowWholeLibrary.settings.DefaultMawSize;
         }
 
-        // Mandatory
         public XenotypeUnifier()
         {
         }

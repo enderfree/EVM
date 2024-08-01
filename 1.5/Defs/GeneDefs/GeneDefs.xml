@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--
 	<GeneDef>
 		<defName>EVM_SnakeMaw</defName>
 		<label>Snake Maw</label>
@@ -23,8 +22,14 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<setMawSize>2</setMawSize>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
+	<!-- I didn't give stomach sizes yet...
 	<GeneDef>
 		<defName>EVM_Roomy</defName>
 		<label>Roomy Inards</label>
@@ -47,7 +52,7 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
-	</GeneDef>
+	</GeneDef>-->
 	
 	<!-- Digestion Workers -->
 	
@@ -58,7 +63,7 @@
 	<GeneDef>
 		<defName>EVM_DigestionWorker_Tend</defName>
 		<label>Tending Stomach</label>
-		<description>Adds a stomach that tend to wounds rather than digesting the preys.</description>
+		<description>Adds a stomach that tends to wounds rather than digesting the preys.</description>
 		<iconPath>UI/Icons/Genes/EVM_TendingStomach</iconPath>
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>10</displayOrderInCategory>
@@ -79,6 +84,31 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Heal</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>0</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_Tend</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
 	<GeneDef>
@@ -265,5 +295,5 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
-	</GeneDef>-->
+	</GeneDef>
 </Defs>

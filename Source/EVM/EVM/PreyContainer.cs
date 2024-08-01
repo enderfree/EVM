@@ -41,12 +41,27 @@ namespace EVM
             }
         }
 
+        public override void PostRemoved()
+        {
+            FreePreys();
+
+            base.PostRemoved();
+        }
+
         public override void Tick()
         {
             base.Tick();
             
             if (Find.TickManager.TicksGame % 530 == 0)
             {
+                Log.Message(swallowWholeProperties.pred.Name.ToString());
+                Log.Message(swallowWholeProperties.trackId.ToString());
+                Log.Message(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].purpose);
+                Log.Message(swallowWholeProperties.digestionWorker.GetType().ToString());
+                foreach (DigestiveTrack track in swallowWholeProperties.digestiveTracks)
+                {
+                    Log.Message(track.purpose);
+                }
                 // digestion
                 swallowWholeProperties.digestionWorker.ApplyDigestion(swallowWholeProperties, innerContainer);
                 if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.PerDigestionTick)
@@ -101,7 +116,10 @@ namespace EVM
             {
                 if (swallowWholeProperties.trackStage + 1 < swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track.Count)
                 {
-                    PreyContainer next = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage + 1])[0]);
+                    StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage + 1];
+                    BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
+
+                    PreyContainer next = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0]);
                     next.swallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(swallowWholeProperties.pred, swallowWholeProperties.prey, swallowWholeProperties.trackId, swallowWholeProperties.trackStage + 1, swallowWholeProperties.struggle);
                 }
                 else
@@ -159,6 +177,14 @@ namespace EVM
                 }
 
                 return swallowWholeProperties.prey.HitPoints / swallowWholeProperties.prey.MaxHitPoints * 100 + "%";
+            }
+        }
+
+        public override string Description
+        {
+            get
+            {
+                return swallowWholeProperties.prey.DescriptionFlavor;
             }
         }
 

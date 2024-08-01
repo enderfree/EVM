@@ -92,7 +92,9 @@
 								Make sure this body has all the parts you define 
 								in the track, otherwise, you will encounter an 
 								exception. -->
-							<li>Stomach</li>
+							<li>
+								<stomach>Stomach</stomach>
+							</li>
 						</track>
 					</li>
 				</digestiveTracks>
