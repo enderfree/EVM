@@ -26,15 +26,15 @@ namespace EVM
                     // Except the selected pawn
                     if (food != pawn)
                     {
-                        // Vore
+                        // Eat
                         SwallowWholeProperties swallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(pawn, food);
-
+                        
                         for (int i = 0; i < swallowWholeProperties.digestiveTracks.Count; ++i)
                         {
-                            swallowWholeProperties.trackId = i;
+                            SwallowWholeProperties trackedSwallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(pawn, food, i);
 
-                            opts.Add(new FloatMenuOption("Eat " + food.LabelShort + " (" + swallowWholeProperties.digestiveTracks[i].purpose + ")", delegate () {
-                                SwallowWholeProperties.passer.Add(swallowWholeProperties);
+                            opts.Add(new FloatMenuOption("Eat " + food.LabelShort + " (" + trackedSwallowWholeProperties.digestiveTracks[i].purpose + ")", delegate () {
+                                SwallowWholeProperties.passer.Add(trackedSwallowWholeProperties);
                                 pawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(InternalDefOf.EVM_Eat, food));
                             }));
                         }

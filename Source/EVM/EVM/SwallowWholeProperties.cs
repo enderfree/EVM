@@ -37,7 +37,7 @@ namespace EVM
         // defined per stomach
         public float baseDamage = 10f;
         public float digestionEfficiancy = 1f;
-        public DamageDef digestionDamageType = DefDatabase<DamageDef>.GetNamed("AcidBurn");
+        public DamageDef digestionDamageType = DamageDefOf.AcidBurn;
         public float comfort = 1f;
         public Dictionary<DamageArmorCategoryDef, int> armorValues = new Dictionary<DamageArmorCategoryDef, int>()
         {
@@ -56,12 +56,41 @@ namespace EVM
             new DigestiveTrack()
             {
                 purpose = "Fatal", 
-                track = new List<BodyPartDef>()
+                track = new List<StomachUnifier>()
                 {
-                    InternalDefOf.Stomach
+                    new StomachUnifier() { stomach = InternalDefOf.Stomach }
                 }
             }
         };
+
+        // Defined Per gene  // Move to Utils
+        //public List<FigurativeTrack> figurativeTracks = new List<FigurativeTrack>() { 
+        //    new FigurativeTrack()
+        //    {
+        //        purpose = "Fatal",
+        //        track = new List<FigurativeStomach>()
+        //        {
+        //            new FigurativeStomach()
+        //            {
+        //                actualPart = InternalDefOf.Stomach,
+        //                baseDamage = 10f, 
+        //                digestionEfficiancy = 1f, 
+        //                digestionDamageType = DamageDefOf.AcidBurn, 
+        //                comfort = 1f,
+        //                armorValues = new Dictionary<DamageArmorCategoryDef, int>()
+        //                {
+        //                    { InternalDefOf.Blunt, 100 },
+        //                    { DamageArmorCategoryDefOf.Sharp, 30 }
+        //                }, 
+        //                canDigest = (thing => !Utils.IsStoneOrMetal(thing)), 
+        //                deadline = 180000, 
+        //                digestionWorker = new DigestionWorker_Fatal().GetType(), 
+        //                grantsNutrition = true, 
+        //                nutritionCost = 0f
+        //            }
+        //        }
+        //    }
+        //};
 
         // here 
         public int trackId = 0; // ID of the track in use for digestiveTracks

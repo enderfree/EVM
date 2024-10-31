@@ -25,7 +25,7 @@ namespace EVM.Digestion
         {
             foreach (Hediff hediff in pawn.health.hediffSet.hediffs)
             {
-                if (hediff is Hediff_Injury)
+                if (hediff is Hediff_Injury && hediff.Severity > 0)
                 {
                     if (hediff.IsPermanent() && !healScars) 
                     {

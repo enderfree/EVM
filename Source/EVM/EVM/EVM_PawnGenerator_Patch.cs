@@ -21,7 +21,7 @@ namespace EVM
                 {
                     if (gene.def.displayCategory == InternalDefOf.EVM_DigestionWorker)
                     {
-
+                        
                     }
                 }
             }

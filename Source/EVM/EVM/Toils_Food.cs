@@ -13,17 +13,20 @@ namespace EVM
     {
         public static Toil SwallowWhole(SwallowWholeProperties swallowWholeProperties)
         {
-            Toil toil = ToilMaker.MakeToil("Vore");
+            Toil toil = ToilMaker.MakeToil("SwallowWhole");
             toil.initAction = delegate ()
             {
                 if (swallowWholeProperties.pred == null)
                 {
                     swallowWholeProperties.pred = toil.actor;
                 }
+
+                StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage];
+                BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
                 
                 if (swallowWholeProperties.IsValid(true))
                 {
-                    PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage])[0]);
+                    PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0]);
                     preyContainer.swallowWholeProperties = swallowWholeProperties;
                     Utils.SwallowWhole(preyContainer, swallowWholeProperties.prey);
                 }

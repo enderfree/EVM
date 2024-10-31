@@ -71,6 +71,9 @@
     <Compile Include="Digestion\DigestionWorker_Safe.cs" />
     <Compile Include="DigestiveTrack.cs" />
     <Compile Include="EVM_PawnGenerator_Patch.cs" />
+    <Compile Include="FigurativeStomach.cs" />
+    <Compile Include="GeneExtension.cs" />
+    <Compile Include="StomachUnifier.cs" />
     <Compile Include="SwallowWholeLibrary.cs" />
     <Compile Include="EVM_Current_Patch.cs" />
     <Compile Include="EVM_FloatMenuMakerMap_Patch.cs" />

@@ -24,5 +24,10 @@ namespace EVM.Digestion
         {
             return 0f;
         }
+
+        public override void Struggle(Thing struggler, SwallowWholeProperties swallowWholeProperties)
+        {
+
+        }
     }
 }

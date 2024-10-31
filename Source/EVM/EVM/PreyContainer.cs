@@ -9,7 +9,7 @@ using EVM.Digestion;
 
 namespace EVM
 {
-    public class PreyContainer: HediffWithComps, IThingHolder
+    public class PreyContainer: HediffWithComps, IThingHolder, IExposable
     {
         public override bool TryMergeWith(Hediff other)
         {
@@ -39,6 +39,13 @@ namespace EVM
             {
                 GenPlace.TryPlaceThing(thing, this.pawn.Position, this.pawn.MapHeld, ThingPlaceMode.Near, null, null, default(Rot4));
             }
+        }
+
+        public override void PostRemoved()
+        {
+            FreePreys();
+
+            base.PostRemoved();
         }
 
         public override void Tick()
@@ -101,7 +108,10 @@ namespace EVM
             {
                 if (swallowWholeProperties.trackStage + 1 < swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track.Count)
                 {
-                    PreyContainer next = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage + 1])[0]);
+                    StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage + 1];
+                    BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
+
+                    PreyContainer next = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0]);
                     next.swallowWholeProperties = Utils.GetSwallowWholePropertiesFromTags(swallowWholeProperties.pred, swallowWholeProperties.prey, swallowWholeProperties.trackId, swallowWholeProperties.trackStage + 1, swallowWholeProperties.struggle);
                 }
                 else
@@ -133,6 +143,14 @@ namespace EVM
             ThingOwnerUtility.AppendThingHoldersFromThings(outChildren, this.GetDirectlyHeldThings());
         }
 
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look<int>(ref remainingStageTime, "EVM_PreyContainer_RemainingStageTime");
+            Scribe_Deep.Look<SwallowWholeProperties>(ref swallowWholeProperties, "EVM_PreyContainer_SwallowWholeProperties");
+            Scribe_Deep.Look<ThingOwner>(ref innerContainer, "EVM_PreyContainer_InnerContainer", new object[] { this });
+        }
+
         public IThingHolder ParentHolder
         {
             get
@@ -159,6 +177,14 @@ namespace EVM
                 }
 
                 return swallowWholeProperties.prey.HitPoints / swallowWholeProperties.prey.MaxHitPoints * 100 + "%";
+            }
+        }
+
+        public override string Description
+        {
+            get
+            {
+                return swallowWholeProperties.prey.DescriptionFlavor;
             }
         }
 
