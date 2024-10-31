@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_tend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_tend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|d:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\source\\evm\\evm\\evm_floatmenumakermap_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_floatmenumakermap_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_tend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_tend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_safe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_healscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_healscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\evm\\digestion\\digestionworker_fatal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,48 +158,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DigestionWorker_Tend.cs",
-              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T20:15:35.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EVM_FloatMenuMakerMap_Patch.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\EVM_FloatMenuMakerMap_Patch.cs",
               "RelativeDocumentMoniker": "EVM\\EVM_FloatMenuMakerMap_Patch.cs",
               "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\EVM_FloatMenuMakerMap_Patch.cs",
               "RelativeToolTip": "EVM\\EVM_FloatMenuMakerMap_Patch.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAwAAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T04:52:13.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Utils.cs",
-              "RelativeDocumentMoniker": "EVM\\Utils.cs",
-              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Utils.cs",
-              "RelativeToolTip": "EVM\\Utils.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAQwFQAAAAZAAAA",
+              "DocumentIndex": 1,
+              "Title": "DigestionWorker_Heal.cs",
+              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Heal.cs",
+              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Heal.cs",
+              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Heal.cs",
+              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Heal.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T08:35:22.035Z"
+              "WhenOpened": "2024-03-06T20:41:31.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "DigestionWorker_Tend.cs",
+              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Tend.cs",
+              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Tend.cs",
+              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Tend.cs",
+              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Tend.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T20:15:35.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SwallowWholeProperties.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\SwallowWholeProperties.cs",
               "RelativeDocumentMoniker": "EVM\\SwallowWholeProperties.cs",
@@ -212,6 +214,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Utils.cs",
+              "RelativeDocumentMoniker": "EVM\\Utils.cs",
+              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Utils.cs",
+              "RelativeToolTip": "EVM\\Utils.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwFQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:35:22.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DigestionWorker_Safe.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Safe.cs",
               "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Safe.cs",
@@ -223,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DigestionWorker_Regenerate.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Regenerate.cs",
               "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Regenerate.cs",
@@ -235,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DigestionWorker_Mend.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Mend.cs",
               "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Mend.cs",
@@ -247,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DigestionWorker_JoyPrey.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_JoyPrey.cs",
               "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_JoyPrey.cs",
@@ -259,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DigestionWorker_JoyPred.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_JoyPred.cs",
               "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_JoyPred.cs",
@@ -271,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DigestionWorker_HealScars.cs",
               "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_HealScars.cs",
               "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_HealScars.cs",
@@ -280,18 +294,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T21:19:50.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DigestionWorker_Heal.cs",
-              "DocumentMoniker": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "ToolTip": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T20:41:31.584Z"
             },
             {
               "$type": "Document",
