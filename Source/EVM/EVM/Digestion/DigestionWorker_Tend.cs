@@ -36,7 +36,7 @@ namespace EVM.Digestion
         public override void ApplyDigestion(SwallowWholeProperties swallowWholeProperties, ThingOwner innerContainer)
         {
             float healingPool = swallowWholeProperties.baseDamage * base.GetDigestionEfficiancy(swallowWholeProperties);
-
+            
             if (healingPool > 0)
             {
                 foreach (Thing thing in innerContainer)
@@ -83,6 +83,11 @@ namespace EVM.Digestion
             }
 
             return nutrition;
+        }
+
+        public override void Struggle(Thing struggler, SwallowWholeProperties swallowWholeProperties)
+        {
+            
         }
 
         public float allHealingSoFar = 0f;

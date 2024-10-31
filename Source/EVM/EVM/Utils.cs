@@ -32,7 +32,8 @@ namespace EVM
             {
                 if (bodyPartExtension.digestiveTracks != null)
                 {
-                    swallowWholeProperties.digestiveTracks = bodyPartExtension.digestiveTracks;
+                    swallowWholeProperties.digestiveTracks = new List<DigestiveTrack>();
+                    swallowWholeProperties.digestiveTracks.AddRange(bodyPartExtension.digestiveTracks);
                 }
             }
             //Log.Message("maw");
@@ -118,10 +119,10 @@ namespace EVM
                 {
                     //Log.Message("object in range");
                     StomachUnifier stomach = swallowWholeProperties.digestiveTracks[trackId].track[trackStage];
-                    Log.Message(trackId);
+                    //Log.Message(trackId);
                     if (stomach.stomach != null)
                     {
-                        Log.Message("stomachDef");
+                        //Log.Message("stomachDef");
                         bodyPartExtension = stomach.stomach.GetModExtension<BodyPartExtension>();
 
                         if (bodyPartExtension != null)
@@ -182,7 +183,7 @@ namespace EVM
                     }
                     else if (stomach.figurativeStomach != null)
                     {
-                        Log.Message("figurative stomach");
+                        //Log.Message("figurative stomach");
                         if (stomach.figurativeStomach.baseDamage != -1)
                         {
                             swallowWholeProperties.baseDamage = stomach.figurativeStomach.baseDamage;

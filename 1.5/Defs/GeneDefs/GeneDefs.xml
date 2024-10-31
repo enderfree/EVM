@@ -93,7 +93,7 @@
 							<li>
 								<figurativeStomach>
 									<actualPart>Stomach</actualPart>
-									<baseDamage>0</baseDamage>
+									<baseDamage>10</baseDamage>
 									<digestionEfficiancy>1</digestionEfficiancy>
 									<digestionDamageType>AcidBurn</digestionDamageType>
 									<comfort>1</comfort>
@@ -135,6 +135,31 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Heal</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>10</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_Heal</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
 	<GeneDef>
@@ -161,6 +186,31 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Heal</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>10</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_HealScars</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
 	<GeneDef>
@@ -187,9 +237,34 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Heal</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>10</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_Regenerate</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
-	<GeneDef>
+	<!--<GeneDef>
 		<defName>EVM_DigestionWorker_Mend</defName>
 		<label>Mending Stomach</label>
 		<description>Adds a stomach that repair objects and mechanoids rather than digesting the preys.</description>
@@ -213,7 +288,7 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
-	</GeneDef>
+	</GeneDef>-->
 	
 		<!-- Joy -->
 		
@@ -241,6 +316,31 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Enjoy</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>0</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_JoyPred</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
 	<GeneDef>
@@ -267,6 +367,31 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Calm</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>0</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_JoyPrey</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 	
 		<!-- Misc -->
@@ -295,5 +420,30 @@
 			</prefixSymbols>
 		</symbolPack>
 		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<purpose>Safe</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>0</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_Safe</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0.1</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
 	</GeneDef>
 </Defs>

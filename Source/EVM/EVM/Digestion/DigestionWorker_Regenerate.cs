@@ -41,6 +41,10 @@ namespace EVM.Digestion
                         chosen = missingParts.RandomElement<Hediff>();
                         needToChoose = false;
                     }
+                    else
+                    {
+                        break;
+                    }
                 }
 
                 if (missingParts.Count() > 0)

@@ -9,7 +9,7 @@ using EVM.Digestion;
 
 namespace EVM
 {
-    public class PreyContainer: HediffWithComps, IThingHolder
+    public class PreyContainer: HediffWithComps, IThingHolder, IExposable
     {
         public override bool TryMergeWith(Hediff other)
         {
@@ -54,14 +54,6 @@ namespace EVM
             
             if (Find.TickManager.TicksGame % 530 == 0)
             {
-                Log.Message(swallowWholeProperties.pred.Name.ToString());
-                Log.Message(swallowWholeProperties.trackId.ToString());
-                Log.Message(swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].purpose);
-                Log.Message(swallowWholeProperties.digestionWorker.GetType().ToString());
-                foreach (DigestiveTrack track in swallowWholeProperties.digestiveTracks)
-                {
-                    Log.Message(track.purpose);
-                }
                 // digestion
                 swallowWholeProperties.digestionWorker.ApplyDigestion(swallowWholeProperties, innerContainer);
                 if (SwallowWholeLibrary.settings.nutritionGainOption == (int)NutritionGainOptions.PerDigestionTick)
@@ -149,6 +141,14 @@ namespace EVM
         public void GetChildHolders(List<IThingHolder> outChildren)
         {
             ThingOwnerUtility.AppendThingHoldersFromThings(outChildren, this.GetDirectlyHeldThings());
+        }
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look<int>(ref remainingStageTime, "EVM_PreyContainer_RemainingStageTime");
+            Scribe_Deep.Look<SwallowWholeProperties>(ref swallowWholeProperties, "EVM_PreyContainer_SwallowWholeProperties");
+            Scribe_Deep.Look<ThingOwner>(ref innerContainer, "EVM_PreyContainer_InnerContainer", new object[] { this });
         }
 
         public IThingHolder ParentHolder

@@ -17,7 +17,7 @@ namespace EVM.Digestion
             while (healingPool > 0f)
             {
                 IEnumerable<Hediff> healableParts = GetHealables(pawn);
-
+                
                 if (healableParts.Count() < 1)
                 {
                     break;
@@ -30,13 +30,13 @@ namespace EVM.Digestion
                 {
                     healAmount = healingPool;
                 }
-
                 if (luckyOne.Severity < healingPool)
                 {
                     healAmount = luckyOne.Severity;
                 }
-
+                
                 luckyOne.Heal(healAmount);
+                healingPool -= healAmount;
             }
 
             return healingPool;
@@ -46,7 +46,7 @@ namespace EVM.Digestion
         {
             foreach(Hediff hediff in pawn.health.hediffSet.hediffs)
             {
-                if (hediff is Hediff_Injury && !hediff.IsPermanent())
+                if (hediff is Hediff_Injury && !hediff.IsPermanent() && hediff.Severity > 0)
                 {
                     yield return hediff;
                 }

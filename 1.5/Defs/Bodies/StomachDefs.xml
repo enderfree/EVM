@@ -12,6 +12,72 @@
 	</BodyPartDef>
 	
 	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_TendingStomach">
+		<defName>EVM_TendingStomach</defName>
+		<label>Tending Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>10</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Tend</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_HealingStomach">
+		<defName>EVM_HealingStomach</defName>
+		<label>Healing Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>10</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Heal</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_ScarHealingStomach">
+		<defName>EVM_ScarHealingStomach</defName>
+		<label>Healing Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>10</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_HealScars</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_RestoringStomach">
+		<defName>EVM_RestoringStomach</defName>
+		<label>Healing Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>10</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Regenerate</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_JoyStomachPred">
+		<defName>EVM_JoyStomachPred</defName>
+		<label>Sensitive Stomach</label>
 		<modExtensions>
 			<li Class="EVM.BodyPartExtension">
 				<baseDamage>0</baseDamage>
@@ -20,7 +86,39 @@
 				<deadline>180000</deadline>
 				<grantsNutrition>false</grantsNutrition>
 				<nutritionCost>0.1</nutritionCost>
-				<digestionWorker>EVM.Digestion.DigestionWorker_Tend</digestionWorker>
+				<digestionWorker>EVM.Digestion.DigestionWorker_JoyPred</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_JoyStomachPrey">
+		<defName>EVM_JoyStomachPrey</defName>
+		<label>Relaxing Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>0</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_JoyPrey</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_SafeStomach">
+		<defName>EVM_SafeStomach</defName>
+		<label>Safe Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>0</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Safe</digestionWorker>
 			</li>
 		</modExtensions>
 	</BodyPartDef>
