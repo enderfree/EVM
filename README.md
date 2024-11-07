@@ -47,6 +47,21 @@ I made the following digestion worker so far.
 
 If you want to make your own, add this mod as a library and implement DigestionWorker in your class. 
 
+# Biotech
+Biotech genes don't add abilities yet, but work well with the debug options. They add a digestive tract that only contains one stomach of the specified type. So far, here are the options:
+- Safe (disable digestion)
+- Enjoy Preysence (Disable digestion and grants recreation to the pred)
+- Relaxing (Disable digestion and grants recreation to the prey)
+- Tending (digestion tend to wounds (opi))
+- Heal (digestion heal (very opi))
+- Heal+ (digestion tend + heal + heal scars (very opi))
+- Restoring (digestion tend + heal + heal scars + restore missing body parts (very opi))
+
 # Plans for the future
-- Biotech features
+- Snacks can be seen in the portrait bar and interacted with as if carried
+- More digestion workers (someone asked for prison stuff)
 - A tutorial
+
+# Special Thanks to
+- Notnyna (made an amazing [fork](https://github.com/Notnyna/EVM) that inspired the Biotech update)
+- Eragon (helped me fix the bug that delayed the Biotech update for so long!)
