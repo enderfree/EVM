@@ -143,6 +143,22 @@ namespace EVM
             ThingOwnerUtility.AppendThingHoldersFromThings(outChildren, this.GetDirectlyHeldThings());
         }
 
+        public override IEnumerable<Gizmo> GetGizmos()
+        {
+            foreach (Thing thing in innerContainer)
+            {
+                if (thing is Pawn pawn)
+                {
+                    yield return ContainingSelectionUtility.CreateSelectStorageGizmo(
+                        "Select Prey", // name
+                        pawn.Name.ToStringShort, // desc
+                        thing, // thing to select
+                        thing // icon
+                    );
+                }
+            }
+        }
+
         public override void ExposeData()
         {
             base.ExposeData();

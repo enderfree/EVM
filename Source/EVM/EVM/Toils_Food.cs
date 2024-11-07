@@ -26,9 +26,18 @@ namespace EVM
                 
                 if (swallowWholeProperties.IsValid(true))
                 {
-                    PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0]);
-                    preyContainer.swallowWholeProperties = swallowWholeProperties;
-                    Utils.SwallowWhole(preyContainer, swallowWholeProperties.prey);
+                    BodyPartRecord stomachRecord = swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0];
+                    
+                    if (swallowWholeProperties.pred.health.hediffSet.GetPartHealth(stomachRecord) <= 0)
+                    {
+                        Messages.Message("Prey escaped due to a missing bodypart", MessageTypeDefOf.NegativeHealthEvent, false);
+                    }
+                    else
+                    {
+                        PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, stomachRecord);
+                        preyContainer.swallowWholeProperties = swallowWholeProperties;
+                        Utils.SwallowWhole(preyContainer, swallowWholeProperties.prey);
+                    }
                 }
             };
 
