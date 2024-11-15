@@ -23,6 +23,7 @@
 				<grantsNutrition>false</grantsNutrition>
 				<nutritionCost>0.1</nutritionCost>
 				<digestionWorker>EVM.Digestion.DigestionWorker_Tend</digestionWorker>
+				<customReleaseWorker>EVM.Release.CustomReleaseWorker_NoBedRestNeed</customReleaseWorker>
 			</li>
 		</modExtensions>
 	</BodyPartDef>
@@ -39,6 +40,7 @@
 				<grantsNutrition>false</grantsNutrition>
 				<nutritionCost>0.1</nutritionCost>
 				<digestionWorker>EVM.Digestion.DigestionWorker_Heal</digestionWorker>
+				<customReleaseWorker>EVM.Release.CustomReleaseWorker_NoBedRestNeed</customReleaseWorker>
 			</li>
 		</modExtensions>
 	</BodyPartDef>
@@ -55,6 +57,7 @@
 				<grantsNutrition>false</grantsNutrition>
 				<nutritionCost>0.1</nutritionCost>
 				<digestionWorker>EVM.Digestion.DigestionWorker_HealScars</digestionWorker>
+				<customReleaseWorker>EVM.Release.DigestionWorkerSpecific.CustomReleaseWorker_HealScars</customReleaseWorker>
 			</li>
 		</modExtensions>
 	</BodyPartDef>
@@ -71,6 +74,7 @@
 				<grantsNutrition>false</grantsNutrition>
 				<nutritionCost>0.1</nutritionCost>
 				<digestionWorker>EVM.Digestion.DigestionWorker_Regenerate</digestionWorker>
+				<customReleaseWorker>EVM.Release.DigestionWorkerSpecific.CustomReleaseWorker_Regenerate</customReleaseWorker>
 			</li>
 		</modExtensions>
 	</BodyPartDef>
@@ -110,6 +114,22 @@
 	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_SafeStomach">
 		<defName>EVM_SafeStomach</defName>
 		<label>Safe Stomach</label>
+		<modExtensions>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>0</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>false</grantsNutrition>
+				<nutritionCost>0.1</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Safe</digestionWorker>
+			</li>
+		</modExtensions>
+	</BodyPartDef>
+	
+	<BodyPartDef ParentName="EVM_BaseStomach" Name="EVM_PrisonStomach">
+		<defName>EVM_PrisonStomach</defName>
+		<label>Prison Stomach</label>
 		<modExtensions>
 			<li Class="EVM.BodyPartExtension">
 				<baseDamage>0</baseDamage>

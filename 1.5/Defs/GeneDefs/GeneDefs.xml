@@ -68,6 +68,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>10</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeTend</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeTend</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>3</biostatCpx>
 		<biostatMet>2</biostatMet>
 		<symbolPack>
@@ -88,6 +94,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultTendingTract</defName>
 						<purpose>Heal</purpose>
 						<track>
 							<li>
@@ -102,6 +109,7 @@
 									<digestionWorker>EVM.Digestion.DigestionWorker_Tend</digestionWorker>
 									<grantsNutrition>false</grantsNutrition>
 									<nutritionCost>0.1</nutritionCost>
+									<customReleaseWorker>EVM.Release.CustomReleaseWorker_NoBedRestNeed</customReleaseWorker>
 								</figurativeStomach>
 							</li>
 						</track>
@@ -119,6 +127,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>20</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeHeal</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeHeal</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>4</biostatCpx>
 		<biostatMet>4</biostatMet>
 		<symbolPack>
@@ -139,6 +153,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultHealingTract</defName>
 						<purpose>Heal</purpose>
 						<track>
 							<li>
@@ -153,6 +168,7 @@
 									<digestionWorker>EVM.Digestion.DigestionWorker_Heal</digestionWorker>
 									<grantsNutrition>false</grantsNutrition>
 									<nutritionCost>0.1</nutritionCost>
+									<customReleaseWorker>EVM.Release.CustomReleaseWorker_NoBedRestNeed</customReleaseWorker>
 								</figurativeStomach>
 							</li>
 						</track>
@@ -170,6 +186,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>30</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeHealScars</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeHealScars</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>5</biostatCpx>
 		<biostatMet>6</biostatMet>
 		<symbolPack>
@@ -190,6 +212,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultScarHealingTract</defName>
 						<purpose>Heal</purpose>
 						<track>
 							<li>
@@ -204,6 +227,7 @@
 									<digestionWorker>EVM.Digestion.DigestionWorker_HealScars</digestionWorker>
 									<grantsNutrition>false</grantsNutrition>
 									<nutritionCost>0.1</nutritionCost>
+									<customReleaseWorker>EVM.Release.DigestionWorkerSpecific.CustomReleaseWorker_HealScars</customReleaseWorker>
 								</figurativeStomach>
 							</li>
 						</track>
@@ -221,6 +245,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>40</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeRegenerate</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeRegenerate</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>6</biostatCpx>
 		<biostatMet>8</biostatMet>
 		<symbolPack>
@@ -241,6 +271,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultRejuveativeTract</defName>
 						<purpose>Heal</purpose>
 						<track>
 							<li>
@@ -255,6 +286,7 @@
 									<digestionWorker>EVM.Digestion.DigestionWorker_Regenerate</digestionWorker>
 									<grantsNutrition>false</grantsNutrition>
 									<nutritionCost>0.1</nutritionCost>
+									<customReleaseWorker>EVM.Release.DigestionWorkerSpecific.CustomReleaseWorker_Regenerate</customReleaseWorker>
 								</figurativeStomach>
 							</li>
 						</track>
@@ -300,6 +332,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>60</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeJoyPred</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeJoyPred</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
 		<symbolPack>
@@ -320,6 +358,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultSatisfyingTract</defName>
 						<purpose>Enjoy</purpose>
 						<track>
 							<li>
@@ -351,6 +390,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>70</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeJoyPrey</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeJoyPrey</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
 		<symbolPack>
@@ -371,6 +416,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultEnjoyableTract</defName>
 						<purpose>Calm</purpose>
 						<track>
 							<li>
@@ -397,6 +443,64 @@
 		<!-- Misc -->
 		
 	<GeneDef>
+		<defName>EVM_DigestionWorker_Fatal</defName>
+		<label>Fatal Stomach</label>
+		<description>Adds a stomach that digests.</description>
+		<iconPath>UI/Icons/Genes/EVM_FatalStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>80</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeFatal</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeFatal</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>pepto</symbol>
+				</li>
+				<li>
+					<symbol>fatal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<defName>EVM_XenoDefaultTract</defName>
+						<purpose>Fatal</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>10</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<deadline>180000</deadline>
+									<digestionWorker>EVM.Digestion.DigestionWorker_Fatal</digestionWorker>
+									<grantsNutrition>true</grantsNutrition>
+									<nutritionCost>0</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
+	</GeneDef>
+		
+	<GeneDef>
 		<defName>EVM_DigestionWorker_Safe</defName>
 		<label>Safe Stomach</label>
 		<description>Adds a stomach that does nothing.</description>
@@ -404,6 +508,12 @@
 		<displayCategory>EVM_DigestionWorker</displayCategory>
 		<displayOrderInCategory>80</displayOrderInCategory>
 		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumeSafe</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumeSafe</AbilityDef>
+		</descriptionHyperlinks>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
 		<symbolPack>
@@ -424,6 +534,7 @@
 			<li Class="EVM.GeneExtension">
 				<figurativeTracks>
 					<li>
+						<defName>EVM_XenoDefaultSafeTract</defName>
 						<purpose>Safe</purpose>
 						<track>
 							<li>
@@ -437,7 +548,65 @@
 									<deadline>180000</deadline>
 									<digestionWorker>EVM.Digestion.DigestionWorker_Safe</digestionWorker>
 									<grantsNutrition>false</grantsNutrition>
-									<nutritionCost>0.1</nutritionCost>
+									<nutritionCost>0</nutritionCost>
+								</figurativeStomach>
+							</li>
+						</track>
+					</li>
+				</figurativeTracks>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_DigestionWorker_Capture</defName>
+		<label>Prison Stomach</label>
+		<description>Adds a stomach for non-food prisoners.</description>
+		<iconPath>UI/Icons/Genes/EVM_PrisonStomach</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>80</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_ConsumePrison</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_ConsumePrison</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>prehandro</symbol>
+				</li>
+				<li>
+					<symbol>hold</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="EVM.GeneExtension">
+				<figurativeTracks>
+					<li>
+						<defName>EVM_XenoDefaultJailTract</defName>
+						<purpose>Capture</purpose>
+						<track>
+							<li>
+								<figurativeStomach>
+									<actualPart>Stomach</actualPart>
+									<baseDamage>0</baseDamage>
+									<digestionEfficiancy>1</digestionEfficiancy>
+									<digestionDamageType>AcidBurn</digestionDamageType>
+									<comfort>1</comfort>
+									<!--<canDigest></canDigest>-->
+									<isTimedStage>false</isTimedStage>
+									<digestionWorker>EVM.Digestion.DigestionWorker_Safe</digestionWorker>
+									<grantsNutrition>false</grantsNutrition>
+									<nutritionCost>0</nutritionCost>
 								</figurativeStomach>
 							</li>
 						</track>

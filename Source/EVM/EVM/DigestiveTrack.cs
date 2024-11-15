@@ -10,6 +10,7 @@ namespace EVM
 {
     public class DigestiveTrack
     {
+        public string defName;
         public string purpose;
         public List<StomachUnifier> track; // do not put the same stomach def twice as the same will be called instead of a second one, which can cause an infinite look.
     }

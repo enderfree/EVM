@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using RimWorld;
 using Verse;
 using EVM.Digestion;
+using EVM.Release;
 
 namespace EVM
 {
@@ -179,6 +180,19 @@ namespace EVM
                             {
                                 swallowWholeProperties.nutritionCost = bodyPartExtension.nutritionCost;
                             }
+
+                            if (bodyPartExtension.isTimedStage != false)
+                            {
+                                swallowWholeProperties.isTimedStage = bodyPartExtension.isTimedStage;
+                            }
+
+                            if (bodyPartExtension.customReleaseWorker != null)
+                            {
+                                if (Activator.CreateInstance(bodyPartExtension.customReleaseWorker) is CustomReleaseWorker customReleaseWorker)
+                                {
+                                    swallowWholeProperties.customReleaseWorker = customReleaseWorker;
+                                }
+                            }
                         }
                     }
                     else if (stomach.figurativeStomach != null)
@@ -236,6 +250,19 @@ namespace EVM
                         {
                             swallowWholeProperties.nutritionCost = stomach.figurativeStomach.nutritionCost;
                         }
+
+                        if (stomach.figurativeStomach.isTimedStage != false)
+                        {
+                            swallowWholeProperties.isTimedStage = stomach.figurativeStomach.isTimedStage;
+                        }
+
+                        if (stomach.figurativeStomach.customReleaseWorker != null)
+                        {
+                            if (Activator.CreateInstance(stomach.figurativeStomach.customReleaseWorker) is CustomReleaseWorker customReleaseWorker)
+                            {
+                                swallowWholeProperties.customReleaseWorker = customReleaseWorker;
+                            }
+                        }
                     }
                 }
                 else
@@ -251,19 +278,53 @@ namespace EVM
             return swallowWholeProperties;
         }
 
-        public static bool SwallowWhole(PreyContainer preyContainer, Thing thing)
+        public static void SwallowWhole(SwallowWholeProperties swallowWholeProperties)
         {
-            thing.DeSpawnOrDeselect(DestroyMode.Vanish);
+            StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage];
+            BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
 
-            if (thing.holdingOwner != null)
+            if (swallowWholeProperties.IsValid(true))
             {
-                thing.holdingOwner.TryTransferToContainer(thing, preyContainer.innerContainer, thing.stackCount, true);
+                BodyPartRecord stomachRecord = swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0];
+
+                if (swallowWholeProperties.pred.health.hediffSet.GetPartHealth(stomachRecord) <= 0)
+                {
+                    Messages.Message("Prey escaped due to a missing bodypart", MessageTypeDefOf.NegativeHealthEvent, false);
+                }
+                else
+                {
+                    PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, stomachRecord);
+                    preyContainer.swallowWholeProperties = swallowWholeProperties;
+
+                    // old SwallowWhole (still needed, things just got more complex)
+                    swallowWholeProperties.prey.DeSpawnOrDeselect(DestroyMode.Vanish);
+
+                    if (swallowWholeProperties.prey.holdingOwner != null)
+                    {
+                        swallowWholeProperties.prey.holdingOwner.TryTransferToContainer(swallowWholeProperties.prey, preyContainer.innerContainer, swallowWholeProperties.prey.stackCount, true);
+                    }
+                    else
+                    {
+                        preyContainer.innerContainer.TryAdd(swallowWholeProperties.prey, true);
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Note, this does not validate SwallowWholeProperties
+        /// </summary>
+        /// <param name="pred">The attacker</param>
+        /// <param name="prey">Hopefully not the food!</param>
+        /// <returns></returns>
+        public static bool CanSuccessfullyConsumeUnwilling(Pawn pred, Pawn prey)
+        {
+            if (prey.Downed || Rand.Value < prey.GetAcceptArrestChance(pred))
+            {
                 return true;
             }
-            else
-            {
-                return preyContainer.innerContainer.TryAdd(thing, true);
-            }
+
+            return false;
         }
 
         // Predicates

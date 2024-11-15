@@ -44,32 +44,32 @@ namespace EVM
             }
         }
 
-        static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-        {
-            List<CodeInstruction> code = new List<CodeInstruction>(instructions);
-            int stopPoint = -1;
+        //static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        //{
+        //    List<CodeInstruction> code = new List<CodeInstruction>(instructions);
+        //    int stopPoint = -1;
 
-            for (int i = 0; i < code.Count; i++)
-            {
-                yield return code[i];
+        //    for (int i = 0; i < code.Count; i++)
+        //    {
+        //        yield return code[i];
 
-                if (code[i].Calls(AccessTools.PropertyGetter(typeof(MapPawns), nameof(MapPawns.ColonyMutantsPlayerControlled))))
-                {
-                    yield return code[i];
-                    stopPoint = i;
-                    break;
-                }
-            }
+        //        if (code[i].Calls(AccessTools.PropertyGetter(typeof(MapPawns), nameof(MapPawns.ColonyMutantsPlayerControlled))))
+        //        {
+        //            yield return code[++i];
+        //            stopPoint = i;
+        //            break;
+        //        }
+        //    }
 
-            yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(ColonistBar), "tmpMaps"));
-            yield return new CodeInstruction(OpCodes.Ldloc_S, 4);
-            yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(ColonistBar), "tmpPawns"));
-            yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(EVM_ColonistBar_Patch), nameof(KeepColonistSnacksInColonistBar)));
+        //    yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(ColonistBar), "tmpMaps"));
+        //    yield return new CodeInstruction(OpCodes.Ldloc_S, 4);
+        //    yield return new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(ColonistBar), "tmpPawns"));
+        //    yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(EVM_ColonistBar_Patch), nameof(KeepColonistSnacksInColonistBar)));
 
-            for (int i = stopPoint + 1; i < code.Count; i++)
-            {
-                yield return code[i];
-            }
-        }
+        //    for (int i = stopPoint + 1; i < code.Count; i++)
+        //    {
+        //        yield return code[i];
+        //    }
+        //}
     }
 }

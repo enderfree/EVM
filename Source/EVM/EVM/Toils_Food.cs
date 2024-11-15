@@ -21,24 +21,7 @@ namespace EVM
                     swallowWholeProperties.pred = toil.actor;
                 }
 
-                StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage];
-                BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
-                
-                if (swallowWholeProperties.IsValid(true))
-                {
-                    BodyPartRecord stomachRecord = swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0];
-                    
-                    if (swallowWholeProperties.pred.health.hediffSet.GetPartHealth(stomachRecord) <= 0)
-                    {
-                        Messages.Message("Prey escaped due to a missing bodypart", MessageTypeDefOf.NegativeHealthEvent, false);
-                    }
-                    else
-                    {
-                        PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, stomachRecord);
-                        preyContainer.swallowWholeProperties = swallowWholeProperties;
-                        Utils.SwallowWhole(preyContainer, swallowWholeProperties.prey);
-                    }
-                }
+                Utils.SwallowWhole(swallowWholeProperties);
             };
 
             return toil;
