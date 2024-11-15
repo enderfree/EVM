@@ -23,6 +23,8 @@ Added the following fields.
 - nutritionCost: does this stomach takes nutrition rather than feeding you?
 - digestionWorker: logic used
 - digestionDamageType: type of damage your digestion applies
+- isTimedStage: will the prey move to the next stage after a while
+- customReleaseWorker: custom condition to release preys
 Added the name tag "DefaultStomach" to the stomach, hoping to help crossmod compatibility
 
 Body<br/>
@@ -31,7 +33,9 @@ Added a default digestive track to the human body.
 # Digestive Track?
 A body can have multiple digestive tracks. Each must have a Purpose and a list of the body parts a prey must go through before being freed. All those body parts must have the fields mentioned in Stomach or they will default. 
 
-If you have the vore options activated, when you right click on a pawn while having one of your pawns selected, you have the option of in which digestive track you want to send them, while if you right click your colonist after, you can regurgitate. 
+If you have the debug options activated, when you right click on a pawn while having one of your pawns selected, you have the option of in which digestive track you want to send them, while if you right click your colonist after, you can regurgitate. 
+
+A defName field was added to let your jobs reference a specific tract.
 
 # Digestion Worker
 I made the following digestion worker so far.
@@ -52,6 +56,7 @@ Biotech genes don't add abilities yet, but work well with the debug options. The
 - Safe (disable digestion)
 - Enjoy Preysence (Disable digestion and grants recreation to the pred)
 - Relaxing (Disable digestion and grants recreation to the prey)
+- Prison (disable digestion, but never release (should probably change how it works))
 - Tending (digestion tend to wounds (opi))
 - Heal (digestion heal (very opi))
 - Heal+ (digestion tend + heal + heal scars (very opi))
