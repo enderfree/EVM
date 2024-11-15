@@ -43,6 +43,7 @@
 				<nutritionCost>0</nutritionCost>
 				<digestionWorker>EVM.Digestion.DigestionWorker_Fatal</digestionWorker>
 				<digestionDamageType>AcidBurn</digestionDamageType>
+				<isTimedStage>true</isTimedStage>
 			</li>
 		</value>
 	</Operation>
@@ -70,6 +71,7 @@
 			<li Class="EVM.BodyPartExtension">
 				<digestiveTracks>
 					<li>
+						<defName>EVM_DefaultTract</defName>
 						<purpose>Fatal</purpose>
 						<track>
 							<!-- A track is the list of body parts preys will go 

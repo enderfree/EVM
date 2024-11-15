@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 using RimWorld;
 using Verse;
 using EVM.Digestion;
@@ -71,6 +72,30 @@ namespace EVM
                     }
                 }
 
+                if (swallowWholeProperties.prey is Pawn prey)
+                {
+                    Need_Suppression suppressionNeed = prey.needs?.TryGetNeed<Need_Suppression>();
+
+                    if (suppressionNeed != null)
+                    {
+                        if (suppressionNeed.CanBeSuppressedNow)
+                        {
+                            prey.mindState.lastSlaveSuppressedTick = Find.TickManager.TicksGame;
+                            
+                            float suppressionPower = swallowWholeProperties.pred.GetStatValue(StatDefOf.SuppressionPower, true, -1);
+                            
+                            SimpleCurve suppressionFactorCurve = new SimpleCurve
+                            {
+                                new CurvePoint(0f, 2f),
+                                new CurvePoint(0.5f, 1f),
+                                new CurvePoint(1f, 0.5f)
+                            };
+
+                            suppressionNeed.CurLevelPercentage += suppressionPower * suppressionFactorCurve.Evaluate(suppressionNeed.CurLevel) * suppressionNeed.MaxLevel;
+                        }
+                    }
+                }
+
                 if (swallowWholeProperties.struggle)
                 {
                     foreach (Thing thing in innerContainer)
@@ -81,7 +106,10 @@ namespace EVM
             }
 
             // Sleep if you're not being digested
-            if (swallowWholeProperties.baseDamage == 0 && !swallowWholeProperties.struggle)
+            if ((swallowWholeProperties.baseDamage == 0 || 
+                swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].purpose != "Heal")
+                && 
+                !swallowWholeProperties.struggle)
             {
                 foreach (Thing thing in innerContainer)
                 {
@@ -104,7 +132,22 @@ namespace EVM
             }
 
             // Move Along
-            if (--remainingStageTime <= 0)
+            bool shouldMoveAlong = false;
+
+            if (swallowWholeProperties.isTimedStage)
+            {
+                if (--remainingStageTime <= 0)
+                {
+                    shouldMoveAlong = true;
+                }
+            }
+
+            if (swallowWholeProperties.customReleaseWorker != null)
+            {
+                shouldMoveAlong = swallowWholeProperties.customReleaseWorker.ShouldRelease(swallowWholeProperties);
+            }
+
+            if (shouldMoveAlong)
             {
                 if (swallowWholeProperties.trackStage + 1 < swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track.Count)
                 {
@@ -124,6 +167,12 @@ namespace EVM
             {
                 swallowWholeProperties.pred.health.RemoveHediff(this);
             }
+
+            // Make survivors tick
+            //foreach (Thing thing in innerContainer)
+            //{
+            //    thing.Tick();
+            //}
         }
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
@@ -141,6 +190,22 @@ namespace EVM
         public void GetChildHolders(List<IThingHolder> outChildren)
         {
             ThingOwnerUtility.AppendThingHoldersFromThings(outChildren, this.GetDirectlyHeldThings());
+        }
+
+        public override IEnumerable<Gizmo> GetGizmos()
+        {
+            foreach (Thing thing in innerContainer)
+            {
+                if (thing is Pawn pawn)
+                {
+                    yield return ContainingSelectionUtility.CreateSelectStorageGizmo(
+                        "Select Prey", // name
+                        pawn.Name.ToStringShort, // desc
+                        thing, // thing to select
+                        thing // icon
+                    );
+                }
+            }
         }
 
         public override void ExposeData()

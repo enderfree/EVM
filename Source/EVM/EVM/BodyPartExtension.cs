@@ -25,6 +25,8 @@ namespace EVM
         public Type digestionWorker;
         public bool grantsNutrition;
         public float nutritionCost;
+        public bool isTimedStage;
+        public Type customReleaseWorker;
 
         // Body
         public List<DigestiveTrack> digestiveTracks; 

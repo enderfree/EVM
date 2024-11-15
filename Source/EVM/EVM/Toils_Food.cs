@@ -21,15 +21,7 @@ namespace EVM
                     swallowWholeProperties.pred = toil.actor;
                 }
 
-                StomachUnifier stomach = swallowWholeProperties.digestiveTracks[swallowWholeProperties.trackId].track[swallowWholeProperties.trackStage];
-                BodyPartDef stomachDef = stomach.stomach ?? stomach.figurativeStomach.actualPart;
-                
-                if (swallowWholeProperties.IsValid(true))
-                {
-                    PreyContainer preyContainer = (PreyContainer)swallowWholeProperties.pred.health.AddHediff(InternalDefOf.EVM_PreyContainer, swallowWholeProperties.pred.RaceProps.body.GetPartsWithDef(stomachDef)[0]);
-                    preyContainer.swallowWholeProperties = swallowWholeProperties;
-                    Utils.SwallowWhole(preyContainer, swallowWholeProperties.prey);
-                }
+                Utils.SwallowWhole(swallowWholeProperties);
             };
 
             return toil;

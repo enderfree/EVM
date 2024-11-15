@@ -58,6 +58,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\ConsumeBase.cs" />
+    <Compile Include="Abilities\ConsumeFatal.cs" />
+    <Compile Include="Abilities\ConsumeFatal_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeHeal.cs" />
+    <Compile Include="Abilities\ConsumeHealScars.cs" />
+    <Compile Include="Abilities\ConsumeHold.cs" />
+    <Compile Include="Abilities\ConsumeHold_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeSafe_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeSafe.cs" />
+    <Compile Include="Abilities\ConsumeJoyPrey.cs" />
+    <Compile Include="Abilities\ConsumeJoyPred.cs" />
+    <Compile Include="Abilities\ConsumeRegenerate.cs" />
+    <Compile Include="Abilities\ConsumeJoyPred_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeJoyPrey_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeTend.cs" />
+    <Compile Include="Abilities\ConsumeHeal_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeHealScars_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeRegenerate_AbilityEffect.cs" />
+    <Compile Include="Abilities\ConsumeTend_AbilityEffect.cs" />
     <Compile Include="BodyPartExtension.cs" />
     <Compile Include="Digestion\DigestionWorker.cs" />
     <Compile Include="Digestion\DigestionWorker_Fatal.cs" />
@@ -70,9 +89,18 @@
     <Compile Include="Digestion\DigestionWorker_Tend.cs" />
     <Compile Include="Digestion\DigestionWorker_Safe.cs" />
     <Compile Include="DigestiveTrack.cs" />
+    <Compile Include="EVM_ColonistBar_Patch.cs" />
     <Compile Include="EVM_PawnGenerator_Patch.cs" />
     <Compile Include="FigurativeStomach.cs" />
     <Compile Include="GeneExtension.cs" />
+    <Compile Include="Release\CustomReleaseWorker.cs" />
+    <Compile Include="Release\CustomReleaseWorker_CantTend.cs" />
+    <Compile Include="Release\CustomReleaseWorker_Healed.cs" />
+    <Compile Include="Release\CustomReleaseWorker_NoBedRestNeed.cs" />
+    <Compile Include="Release\CustomReleaseWorker_NoMissingPart.cs" />
+    <Compile Include="Release\CustomReleaseWorker_Scarless.cs" />
+    <Compile Include="Release\DigestionWorkerSpecific\CustomReleaseWorker_HealScars.cs" />
+    <Compile Include="Release\DigestionWorkerSpecific\CustomReleaseWorker_Regenerate.cs" />
     <Compile Include="StomachUnifier.cs" />
     <Compile Include="SwallowWholeLibrary.cs" />
     <Compile Include="EVM_Current_Patch.cs" />
@@ -97,5 +125,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XenotypeUnifier.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EVM.Digestion;
+using EVM.Release;
 using RimWorld;
 using Verse;
 
@@ -49,12 +50,15 @@ namespace EVM
         public DigestionWorker digestionWorker = new DigestionWorker_Fatal();
         public bool grantsNutrition = true;
         public float nutritionCost = 0f;
+        public bool isTimedStage = true;
+        public CustomReleaseWorker customReleaseWorker = null;
 
         // Defined per body
         public List<DigestiveTrack> digestiveTracks = new List<DigestiveTrack>()
         {
             new DigestiveTrack()
             {
+                defName = "Failsafe",
                 purpose = "Fatal", 
                 track = new List<StomachUnifier>()
                 {
@@ -159,6 +163,7 @@ namespace EVM
             Scribe_Values.Look<bool>(ref struggle, "EVM_SwallowWholeProperties_Struggle");
 
             Scribe_Deep.Look<DigestionWorker>(ref digestionWorker, "EVM_SwallowWholeProperties_DigestionWorker");
+            Scribe_Deep.Look<CustomReleaseWorker>(ref customReleaseWorker, "EVM_SwallowWholeProperties_CustomReleaseWorker");
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
@@ -177,10 +182,16 @@ namespace EVM
                 deadline = xmlFetcher.deadline;
                 grantsNutrition = xmlFetcher.grantsNutrition;
                 nutritionCost = xmlFetcher.nutritionCost;
+                isTimedStage = xmlFetcher.isTimedStage;
 
                 if (digestionWorker.GetType() != xmlFetcher.digestionWorker.GetType())
                 {
                     digestionWorker = xmlFetcher.digestionWorker;
+                }
+
+                if (customReleaseWorker.GetType() != xmlFetcher.customReleaseWorker.GetType())
+                {
+                    customReleaseWorker = xmlFetcher.customReleaseWorker;
                 }
             }
         }

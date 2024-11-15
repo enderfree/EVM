@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeFatal</defName>
+		<label>Consume (Fatal)</label>
+		<description>Go put food where it belongs.</description>
+		<iconPath>UI/Icons/Genes/EVM_FatalStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>600</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>true</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeFatal_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeTend</defName>
+		<label>Consume (Tend)</label>
+		<description>Tend to your prey.</description>
+		<iconPath>UI/Icons/Genes/EVM_TendingStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>610</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeTend_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeHeal</defName>
+		<label>Consume (Heal)</label>
+		<description>Gastric healing</description>
+		<iconPath>UI/Icons/Genes/EVM_HealingStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>620</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeHeal_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeHealScars</defName>
+		<label>Consume (Heal+)</label>
+		<description>Digest those scars away!</description>
+		<iconPath>UI/Icons/Genes/EVM_HealingStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>630</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeHealScars_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeRegenerate</defName>
+		<label>Consume (Regenerate)</label>
+		<description>Restore your prey.</description>
+		<iconPath>UI/Icons/Genes/EVM_HealingStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>640</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeRegenerate_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeJoyPred</defName>
+		<label>Consume (Joy (pred))</label>
+		<description>Enjoy the presence of preys tucked safely in your belly.</description>
+		<iconPath>UI/Icons/Genes/EVM_JoyPred</iconPath>
+		<category>Ability</category>
+		<displayOrder>650</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeJoyPred_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeJoyPrey</defName>
+		<label>Consume (Joy (prey))</label>
+		<description>Safely tuck your prey in your comfy belly.</description>
+		<iconPath>UI/Icons/Genes/EVM_JoyPrey</iconPath>
+		<category>Ability</category>
+		<displayOrder>660</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeJoyPrey_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumeSafe</defName>
+		<label>Consume (Safe)</label>
+		<description>Safely tuck your prey in your belly.</description>
+		<iconPath>UI/Icons/Genes/EVM_SafeStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>670</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeSafe_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_ConsumePrison</defName>
+		<label>Consume (Hold)</label>
+		<description>Keep your prey in your stomach indefenitely!</description>
+		<iconPath>UI/Icons/Genes/EVM_PrisonStomach</iconPath>
+		<category>Ability</category>
+		<displayOrder>670</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>true</hostile>
+		<targetRequired>true</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>3</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.ConsumeHold_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
+</Defs>
