@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Jaw 
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BodyPartDef[defName="Jaw"]/modExtensions</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/BodyPartDef[defName="Jaw"]</xpath>
+			<value>
+				<modExtensions/>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyPartDef[defName="Jaw"]/modExtensions</xpath>
+		<value>
+			<li Class="EVM.BodyPartExtension">
+				<mawSize>0.8</mawSize>
+			</li>
+		</value>
+	</Operation>-->
+	
+	<!-- Stomach -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BodyPartDef[defName="Stomach"]/modExtensions</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/BodyPartDef[defName="Stomach"]</xpath>
+			<value>
+				<modExtensions/>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyPartDef[defName="Stomach"]/modExtensions</xpath>
+		<value>
+			<li Class="EVM.BodyPartExtension">
+				<baseDamage>10</baseDamage>
+				<digestionEfficiancy>1</digestionEfficiancy>
+				<comfort>1</comfort>
+				<deadline>180000</deadline>
+				<grantsNutrition>true</grantsNutrition>
+				<nutritionCost>0</nutritionCost>
+				<digestionWorker>EVM.Digestion.DigestionWorker_Fatal</digestionWorker>
+				<digestionDamageType>AcidBurn</digestionDamageType>
+				<isTimedStage>true</isTimedStage>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>Defs/BodyPartDef[defName="Stomach"]</xpath>
+		<attribute>Name</attribute>
+		<value>DefaultStomach</value>
+	</Operation>
+	
+	<!-- Body -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BodyDef/modExtensions</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/BodyDef</xpath>
+			<value>
+				<modExtensions/>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyDef/modExtensions</xpath>
+		<value>
+			<li Class="EVM.BodyPartExtension">
+				<digestiveTracks>
+					<li>
+						<defName>EVM_DefaultTract</defName>
+						<purpose>Fatal</purpose>
+						<track>
+							<!-- A track is the list of body parts preys will go 
+								through for a full tour, in that order. 
+								Obviously, it may get digested before reaching 
+								the end, but if it does not, it will then be 
+								freed. 
+								
+								You can use the same BodyPartDef twice, in the 
+								track, but it brings back to a stomach, not a 
+								second stomach of the same type. To create a 
+								track with multiple stomach of the same type, 
+								you need to define a copy of this stomach and 
+								add the copy with the different def name in the 
+								part list in the body defenition. This can be 
+								done as a patch if needed and wont affect tracks 
+								at all since tracks define the order, not the 
+								part list. 
+								
+								Make sure this body has all the parts you define 
+								in the track, otherwise, you will encounter an 
+								exception. -->
+							<li>
+								<stomach>Stomach</stomach>
+							</li>
+						</track>
+					</li>
+				</digestiveTracks>
+			</li>
+		</value>
+	</Operation>
+</Patch>

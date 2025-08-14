@@ -1,0 +1,13 @@
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.4\Assemblies\EVM.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\Source\EVM\EVM\obj\Debug\EVM.csproj.AssemblyReference.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\Source\EVM\EVM\obj\Debug\EVM.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\Source\EVM\EVM\obj\Debug\EVM.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.5\Assemblies\EVM.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Assemblies\EVM.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Source\EVM\EVM\obj\Debug\EVM.csproj.AssemblyReference.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Source\EVM\EVM\obj\Debug\EVM.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Source\EVM\EVM\obj\Debug\EVM.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Assemblies\EVM.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Source\EVM\EVM\obj\Debug\EVM.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Source\EVM\EVM\obj\Debug\EVM.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\EVM\1.6\Source\EVM\EVM\obj\Debug\EVM.dll
