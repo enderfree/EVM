@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>EVM_PreyContainer</defName>
+		<label>Placeholder, Should be replaced by the class</label>
+		<description>Placeholder, Should be replaced by the class</description>
+		<hediffClass>EVM.PreyContainer</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

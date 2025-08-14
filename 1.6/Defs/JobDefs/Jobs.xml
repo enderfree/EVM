@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>EVM_Eat</defName>
+		<driverClass>EVM.JobDriver_SwallowWhole</driverClass>
+		<reportString>eating TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>EVM_Regurgitate</defName>
+		<driverClass>EVM.JobDriver_Regurgitate</driverClass>
+		<reportString>regurgitating TargetA.</reportString>
+	</JobDef>
+</Defs>
