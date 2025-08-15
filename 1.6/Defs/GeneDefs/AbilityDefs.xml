@@ -251,4 +251,31 @@
 			<li Class="EVM.Abilities.ConsumeHold_AbilityEffect"/>
 		</comps>
 	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>EVM_Regurgitate</defName>
+		<label>Regurgitate</label>
+		<description>Empty your stomaches.</description>
+		<iconPath>UI/Icons/Genes/EVM_Regurgitate</iconPath>
+		<displayOrder>590</displayOrder>
+		<aiCanUse>true</aiCanUse>
+		<hostile>false</hostile>
+		<targetRequired>false</targetRequired>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<label>Regurgitator</label>
+			<violent>false</violent>
+			<warmupTime>2.5</warmupTime>
+			<range>0</range>
+			<requireLineOfSight>False</requireLineOfSight>
+			<targetParams>
+				<canTargetSelf>True</canTargetSelf>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="EVM.Abilities.Regurgitate_AbilityEffect"/>
+		</comps>
+	</AbilityDef>
 </Defs>

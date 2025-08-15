@@ -3,268 +3,36 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\swallowwholeproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\swallowwholeproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_jobdriver_predatorhunt_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_jobdriver_predatorhunt_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\nutritiongainoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\nutritiongainoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\settingsanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\settingsanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\settingtabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\settingtabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\stomachunifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\stomachunifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\swallowwholelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\swallowwholelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\abilities\\regurgitate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\regurgitate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\floatmenuoptionprovider_regurgitate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\floatmenuoptionprovider_regurgitate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\floatmenuoptionprovider_eat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\floatmenuoptionprovider_eat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\figurativestomach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\figurativestomach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\toils_food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\toils_food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\toils_food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\jobdriver_regurgitate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\jobdriver_regurgitate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\preycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\preycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\preycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_regenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_regenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_tend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_tend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_healscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_healscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\geneextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\geneextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\digestionworkerspecific\\customreleaseworker_regenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\digestionworkerspecific\\customreleaseworker_regenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\digestionworkerspecific\\customreleaseworker_healscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\digestionworkerspecific\\customreleaseworker_healscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\customreleaseworker_scarless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\customreleaseworker_scarless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\customreleaseworker_nomissingpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\customreleaseworker_nomissingpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\customreleaseworker_nobedrestneed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\customreleaseworker_nobedrestneed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\customreleaseworker_healed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\customreleaseworker_healed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\customreleaseworker_canttend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\customreleaseworker_canttend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\release\\customreleaseworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\release\\customreleaseworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_safe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_safe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_mend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_mend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_joyprey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_joyprey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_joypred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_joypred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker_fatal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker_fatal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestion\\digestionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestion\\digestionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumetend_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumetend_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumetend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumetend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumesafe_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumesafe_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumesafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumesafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumeregenerate_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumeregenerate_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumeregenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumeregenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumejoyprey_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumejoyprey_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumejoyprey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumejoyprey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumejoypred_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumejoypred_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumehold_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumehold_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumehold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumehold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumehealscars_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumehealscars_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumehealscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumehealscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumeheal_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumeheal_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumeheal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumeheal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumefatal_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumefatal_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumefatal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumefatal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\abilities\\consumebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\xenotypeunifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\xenotypeunifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\abilities\\regurgitate_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\regurgitate_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\abilities\\consumefatal_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumefatal_abilityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\onstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\onstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\jobdriver_swallowwhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\jobdriver_swallowwhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\internaldefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_toils_ingest_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_toils_ingest_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_thing_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_thing_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_pawngenerator_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_pawngenerator_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_gamedatasaveloader_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_gamedatasaveloader_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_current_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_current_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\evm_colonistbar_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\evm_colonistbar_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\digestivetrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\digestivetrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\bodypartextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\bodypartextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\evm\\abilities\\consumejoypred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumejoypred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\evm\\1.6\\source\\evm\\evm\\abilities\\consumetend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5A23D3-FA5A-48A4-8EFD-8E23215C622B}|EVM\\EVM.csproj|solutionrelative:evm\\abilities\\consumetend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -274,808 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SettingsAnimal.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SettingsAnimal.cs",
-              "RelativeDocumentMoniker": "EVM\\SettingsAnimal.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SettingsAnimal.cs",
-              "RelativeToolTip": "EVM\\SettingsAnimal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T23:50:38.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NutritionGainOptions.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\NutritionGainOptions.cs",
-              "RelativeDocumentMoniker": "EVM\\NutritionGainOptions.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\NutritionGainOptions.cs",
-              "RelativeToolTip": "EVM\\NutritionGainOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T23:53:11.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EVM_JobDriver_PredatorHunt_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_JobDriver_PredatorHunt_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_JobDriver_PredatorHunt_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_JobDriver_PredatorHunt_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_JobDriver_PredatorHunt_Patch.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T19:30:11.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SwallowWholeProperties.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SwallowWholeProperties.cs",
-              "RelativeDocumentMoniker": "EVM\\SwallowWholeProperties.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SwallowWholeProperties.cs",
-              "RelativeToolTip": "EVM\\SwallowWholeProperties.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAAAKgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:00:05.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Utils.cs",
-              "RelativeDocumentMoniker": "EVM\\Utils.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Utils.cs",
-              "RelativeToolTip": "EVM\\Utils.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwBYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T08:35:22.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SettingTabs.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SettingTabs.cs",
-              "RelativeDocumentMoniker": "EVM\\SettingTabs.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SettingTabs.cs",
-              "RelativeToolTip": "EVM\\SettingTabs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:01:23.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StomachUnifier.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\StomachUnifier.cs",
-              "RelativeDocumentMoniker": "EVM\\StomachUnifier.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\StomachUnifier.cs",
-              "RelativeToolTip": "EVM\\StomachUnifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:22:32.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SwallowWholeLibrary.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SwallowWholeLibrary.cs",
-              "RelativeDocumentMoniker": "EVM\\SwallowWholeLibrary.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\SwallowWholeLibrary.cs",
-              "RelativeToolTip": "EVM\\SwallowWholeLibrary.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAYwAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:00:08.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "FloatMenuOptionProvider_Regurgitate.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\FloatMenuOptionProvider_Regurgitate.cs",
               "RelativeDocumentMoniker": "EVM\\FloatMenuOptionProvider_Regurgitate.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\FloatMenuOptionProvider_Regurgitate.cs",
               "RelativeToolTip": "EVM\\FloatMenuOptionProvider_Regurgitate.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAqwFAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T04:18:22.813Z",
+              "WhenOpened": "2025-08-15T00:11:30.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FigurativeStomach.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\FigurativeStomach.cs",
-              "RelativeDocumentMoniker": "EVM\\FigurativeStomach.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\FigurativeStomach.cs",
-              "RelativeToolTip": "EVM\\FigurativeStomach.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T16:17:26.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JobDriver_Regurgitate.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\JobDriver_Regurgitate.cs",
-              "RelativeDocumentMoniker": "EVM\\JobDriver_Regurgitate.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\JobDriver_Regurgitate.cs",
-              "RelativeToolTip": "EVM\\JobDriver_Regurgitate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T16:17:43.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FloatMenuOptionProvider_Eat.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\FloatMenuOptionProvider_Eat.cs",
-              "RelativeDocumentMoniker": "EVM\\FloatMenuOptionProvider_Eat.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\FloatMenuOptionProvider_Eat.cs",
-              "RelativeToolTip": "EVM\\FloatMenuOptionProvider_Eat.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAwwEMAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T12:29:40.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Toils_Food.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Toils_Food.cs",
               "RelativeDocumentMoniker": "EVM\\Toils_Food.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Toils_Food.cs",
               "RelativeToolTip": "EVM\\Toils_Food.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwB0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T20:11:01.422Z"
+              "WhenOpened": "2025-08-15T00:10:52.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "PreyContainer.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\PreyContainer.cs",
               "RelativeDocumentMoniker": "EVM\\PreyContainer.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\PreyContainer.cs",
               "RelativeToolTip": "EVM\\PreyContainer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAArwCQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:13:12.7Z"
+              "WhenOpened": "2025-08-15T00:09:49.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DigestionWorker_Regenerate.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Regenerate.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Regenerate.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Regenerate.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Regenerate.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T21:58:30.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DigestionWorker_Tend.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Tend.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T20:15:35.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DigestionWorker_HealScars.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_HealScars.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_HealScars.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_HealScars.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_HealScars.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T21:19:50.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DigestionWorker_Heal.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Heal.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwCwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T20:41:31.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GeneExtension.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\GeneExtension.cs",
-              "RelativeDocumentMoniker": "EVM\\GeneExtension.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\GeneExtension.cs",
-              "RelativeToolTip": "EVM\\GeneExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T15:01:26.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CustomReleaseWorker_Regenerate.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_Regenerate.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_Regenerate.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_Regenerate.cs",
-              "RelativeToolTip": "EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_Regenerate.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:35:08.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CustomReleaseWorker_HealScars.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_HealScars.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_HealScars.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_HealScars.cs",
-              "RelativeToolTip": "EVM\\Release\\DigestionWorkerSpecific\\CustomReleaseWorker_HealScars.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T19:43:09.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CustomReleaseWorker_Scarless.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_Scarless.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\CustomReleaseWorker_Scarless.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_Scarless.cs",
-              "RelativeToolTip": "EVM\\Release\\CustomReleaseWorker_Scarless.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T17:22:29.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CustomReleaseWorker_NoMissingPart.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_NoMissingPart.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\CustomReleaseWorker_NoMissingPart.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_NoMissingPart.cs",
-              "RelativeToolTip": "EVM\\Release\\CustomReleaseWorker_NoMissingPart.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T17:32:31.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CustomReleaseWorker_NoBedRestNeed.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_NoBedRestNeed.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\CustomReleaseWorker_NoBedRestNeed.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_NoBedRestNeed.cs",
-              "RelativeToolTip": "EVM\\Release\\CustomReleaseWorker_NoBedRestNeed.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T18:23:32.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CustomReleaseWorker_Healed.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_Healed.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\CustomReleaseWorker_Healed.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_Healed.cs",
-              "RelativeToolTip": "EVM\\Release\\CustomReleaseWorker_Healed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T17:12:45.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CustomReleaseWorker_CantTend.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_CantTend.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\CustomReleaseWorker_CantTend.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker_CantTend.cs",
-              "RelativeToolTip": "EVM\\Release\\CustomReleaseWorker_CantTend.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T16:59:03.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CustomReleaseWorker.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker.cs",
-              "RelativeDocumentMoniker": "EVM\\Release\\CustomReleaseWorker.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Release\\CustomReleaseWorker.cs",
-              "RelativeToolTip": "EVM\\Release\\CustomReleaseWorker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T16:26:55.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DigestionWorker_Safe.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Safe.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Safe.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Safe.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Safe.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T19:38:08.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DigestionWorker_Mend.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Mend.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Mend.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Mend.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Mend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T00:32:22.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DigestionWorker_JoyPrey.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_JoyPrey.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_JoyPrey.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_JoyPrey.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_JoyPrey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T02:00:31.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DigestionWorker_JoyPred.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_JoyPred.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_JoyPred.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_JoyPred.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_JoyPred.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T02:17:07.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DigestionWorker_Fatal.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Fatal.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker_Fatal.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker_Fatal.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker_Fatal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T07:51:59.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DigestionWorker.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker.cs",
-              "RelativeDocumentMoniker": "EVM\\Digestion\\DigestionWorker.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Digestion\\DigestionWorker.cs",
-              "RelativeToolTip": "EVM\\Digestion\\DigestionWorker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T07:46:41.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ConsumeTend_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeTend_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeTend_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeTend_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeTend_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:17:43.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ConsumeTend.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeTend.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeTend.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeTend.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeTend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:08:18.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ConsumeSafe_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeSafe_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeSafe_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeSafe_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeSafe_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T21:28:03.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ConsumeSafe.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeSafe.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeSafe.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeSafe.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeSafe.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T21:22:45.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ConsumeRegenerate_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeRegenerate_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeRegenerate_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeRegenerate_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeRegenerate_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:43:48.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ConsumeRegenerate.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeRegenerate.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeRegenerate.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeRegenerate.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeRegenerate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:37:11.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ConsumeJoyPrey_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPrey_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeJoyPrey_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPrey_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeJoyPrey_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:21:14.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ConsumeJoyPrey.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPrey.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeJoyPrey.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPrey.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeJoyPrey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:18:34.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ConsumeJoyPred_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPred_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeJoyPred_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPred_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeJoyPred_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:20:14.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ConsumeHold_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHold_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeHold_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHold_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeHold_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T22:01:11.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ConsumeHold.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHold.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeHold.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHold.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeHold.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T21:59:31.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ConsumeHealScars_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHealScars_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeHealScars_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHealScars_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeHealScars_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:42:10.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ConsumeHealScars.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHealScars.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeHealScars.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHealScars.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeHealScars.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:33:49.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ConsumeHeal_AbilityEffect.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHeal_AbilityEffect.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeHeal_AbilityEffect.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHeal_AbilityEffect.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeHeal_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:40:34.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ConsumeHeal.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHeal.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeHeal.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeHeal.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeHeal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:35:58.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 6,
               "Title": "ConsumeFatal_AbilityEffect.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeFatal_AbilityEffect.cs",
               "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeFatal_AbilityEffect.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeFatal_AbilityEffect.cs",
               "RelativeToolTip": "EVM\\Abilities\\ConsumeFatal_AbilityEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:05:56.552Z"
+              "WhenOpened": "2025-08-15T00:05:23.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ConsumeFatal.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeFatal.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeFatal.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeFatal.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeFatal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:20:58.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 4,
               "Title": "ConsumeBase.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeBase.cs",
               "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeBase.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeBase.cs",
               "RelativeToolTip": "EVM\\Abilities\\ConsumeBase.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAAQAAAA",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:25:42.021Z"
+              "WhenOpened": "2025-08-15T00:04:51.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "XenotypeUnifier.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\XenotypeUnifier.cs",
-              "RelativeDocumentMoniker": "EVM\\XenotypeUnifier.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\XenotypeUnifier.cs",
-              "RelativeToolTip": "EVM\\XenotypeUnifier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "ConsumeTend.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeTend.cs",
+              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeTend.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeTend.cs",
+              "RelativeToolTip": "EVM\\Abilities\\ConsumeTend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:32:17.489Z"
+              "WhenOpened": "2025-08-15T00:04:22.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Settings.cs",
-              "RelativeDocumentMoniker": "EVM\\Settings.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Settings.cs",
-              "RelativeToolTip": "EVM\\Settings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "Regurgitate.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\Regurgitate.cs",
+              "RelativeDocumentMoniker": "EVM\\Abilities\\Regurgitate.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\Regurgitate.cs",
+              "RelativeToolTip": "EVM\\Abilities\\Regurgitate.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T21:04:23.98Z"
+              "WhenOpened": "2025-08-15T00:02:50.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "OnStartUp.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\OnStartUp.cs",
-              "RelativeDocumentMoniker": "EVM\\OnStartUp.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\OnStartUp.cs",
-              "RelativeToolTip": "EVM\\OnStartUp.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFQAAAAMAAAA",
+              "DocumentIndex": 5,
+              "Title": "Regurgitate_AbilityEffect.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\Regurgitate_AbilityEffect.cs",
+              "RelativeDocumentMoniker": "EVM\\Abilities\\Regurgitate_AbilityEffect.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\Regurgitate_AbilityEffect.cs",
+              "RelativeToolTip": "EVM\\Abilities\\Regurgitate_AbilityEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T02:13:59.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "JobDriver_SwallowWhole.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\JobDriver_SwallowWhole.cs",
-              "RelativeDocumentMoniker": "EVM\\JobDriver_SwallowWhole.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\JobDriver_SwallowWhole.cs",
-              "RelativeToolTip": "EVM\\JobDriver_SwallowWhole.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwC4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:13:03.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "InternalDefOf.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\InternalDefOf.cs",
-              "RelativeDocumentMoniker": "EVM\\InternalDefOf.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\InternalDefOf.cs",
-              "RelativeToolTip": "EVM\\InternalDefOf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T09:51:03.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Extensions.cs",
-              "RelativeDocumentMoniker": "EVM\\Extensions.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Extensions.cs",
-              "RelativeToolTip": "EVM\\Extensions.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAwAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T00:37:21.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "EVM_Toils_Ingest_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_Toils_Ingest_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_Toils_Ingest_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_Toils_Ingest_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_Toils_Ingest_Patch.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T02:47:45.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "EVM_Thing_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_Thing_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_Thing_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_Thing_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_Thing_Patch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T02:24:55.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "EVM_PawnGenerator_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_PawnGenerator_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_PawnGenerator_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_PawnGenerator_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_PawnGenerator_Patch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T22:46:26.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "EVM_GameDataSaveLoader_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_GameDataSaveLoader_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_GameDataSaveLoader_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_GameDataSaveLoader_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_GameDataSaveLoader_Patch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:41:35.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "EVM_Current_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_Current_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_Current_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_Current_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_Current_Patch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:38:24.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "EVM_ColonistBar_Patch.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_ColonistBar_Patch.cs",
-              "RelativeDocumentMoniker": "EVM\\EVM_ColonistBar_Patch.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\EVM_ColonistBar_Patch.cs",
-              "RelativeToolTip": "EVM\\EVM_ColonistBar_Patch.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAuwEgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T23:54:35.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "DigestiveTrack.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\DigestiveTrack.cs",
-              "RelativeDocumentMoniker": "EVM\\DigestiveTrack.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\DigestiveTrack.cs",
-              "RelativeToolTip": "EVM\\DigestiveTrack.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T05:56:09.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "BodyPartExtension.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\BodyPartExtension.cs",
-              "RelativeDocumentMoniker": "EVM\\BodyPartExtension.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\BodyPartExtension.cs",
-              "RelativeToolTip": "EVM\\BodyPartExtension.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T05:16:08.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "ConsumeJoyPred.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPred.cs",
-              "RelativeDocumentMoniker": "EVM\\Abilities\\ConsumeJoyPred.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EVM\\1.6\\Source\\EVM\\EVM\\Abilities\\ConsumeJoyPred.cs",
-              "RelativeToolTip": "EVM\\Abilities\\ConsumeJoyPred.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:17:57.893Z"
+              "WhenOpened": "2025-08-15T00:03:18.617Z",
+              "EditorCaption": ""
             }
           ]
         }

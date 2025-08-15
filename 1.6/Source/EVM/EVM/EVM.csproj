@@ -77,6 +77,8 @@
     <Compile Include="Abilities\ConsumeHealScars_AbilityEffect.cs" />
     <Compile Include="Abilities\ConsumeRegenerate_AbilityEffect.cs" />
     <Compile Include="Abilities\ConsumeTend_AbilityEffect.cs" />
+    <Compile Include="Abilities\Regurgitate.cs" />
+    <Compile Include="Abilities\Regurgitate_AbilityEffect.cs" />
     <Compile Include="BodyPartExtension.cs" />
     <Compile Include="Digestion\DigestionWorker.cs" />
     <Compile Include="Digestion\DigestionWorker_Fatal.cs" />

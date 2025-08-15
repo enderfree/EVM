@@ -615,4 +615,36 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	
+	<GeneDef>
+		<defName>EVM_Regurgitate</defName>
+		<label>Regurgitate</label>
+		<description>The ability to regurgitate the content of your stomaches.</description>
+		<iconPath>UI/Icons/Genes/EVM_Regurgitate</iconPath>
+		<displayCategory>EVM_DigestionWorker</displayCategory>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<iconColor>(255,255,255)</iconColor>
+		<abilities>
+			<li>EVM_Regurgitate</li>
+		</abilities>
+		<descriptionHyperlinks>
+			<AbilityDef>EVM_Regurgitate</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gastro</symbol>
+				</li>
+				<li>
+					<symbol>pepto</symbol>
+				</li>
+				<li>
+					<symbol>re</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
 </Defs>
